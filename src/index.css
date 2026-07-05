@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  --color-amazon-blue: #232f3e;
+  --color-amazon-orange: #ff9900;
+  --color-amazon-orange-hover: #e68a00;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    background-color: #f3f4f6;
+    background-image: 
+      radial-gradient(at 0% 0%, rgba(255, 153, 0, 0.07) 0px, transparent 40%),
+      radial-gradient(at 100% 0%, rgba(99, 102, 241, 0.05) 0px, transparent 40%),
+      radial-gradient(at 100% 100%, rgba(255, 153, 0, 0.04) 0px, transparent 40%),
+      radial-gradient(at 0% 100%, rgba(99, 102, 241, 0.04) 0px, transparent 40%);
+    background-attachment: fixed;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dark body {
+    background-color: #0b0f19;
+    background-image: 
+      radial-gradient(at 0% 0%, rgba(255, 153, 0, 0.06) 0px, transparent 45%),
+      radial-gradient(at 100% 0%, rgba(99, 102, 241, 0.06) 0px, transparent 45%),
+      radial-gradient(at 100% 100%, rgba(255, 153, 0, 0.05) 0px, transparent 45%),
+      radial-gradient(at 0% 100%, rgba(99, 102, 241, 0.05) 0px, transparent 45%);
+    background-attachment: fixed;
+  }
+  
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+  }
+  
+  code, pre {
+    font-family: var(--font-mono);
+  }
+}
+
+/* Glass Theme Classes */
+.glass-card {
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.04);
+}
+
+.dark .glass-card {
+  background: rgba(17, 24, 39, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+}
+
+.glass-panel {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.45);
+}
+
+.dark .glass-panel {
+  background: rgba(17, 24, 39, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-input {
+  background: rgba(255, 255, 255, 0.5) !important;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(203, 213, 225, 0.6) !important;
+}
+
+.dark .glass-input {
+  background: rgba(17, 24, 39, 0.5) !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+}
+
+.amazon-blue {
+  background-color: #232f3e !important;
+}
+
+.dark .amazon-blue {
+  background-color: #0b0f19 !important;
+}
+
+.amazon-orange {
+  background-color: #ff9900 !important;
+  color: #1a1a1a !important;
+}
+
+.amazon-orange-hover:hover {
+  background-color: #e68a00 !important;
+}

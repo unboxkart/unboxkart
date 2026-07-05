@@ -1,0 +1,6 @@
+{
+  "name": "unboxkart",
+  "description": "A highly polished, SEO-optimized, production-ready Amazon Affiliate website template with dynamic filters, dark mode, quick view, and responsive design.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
