@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="30 20 360 360" width="100%" height="100%">
   <!-- Definition for gradients and shadow effects -->
   <defs>
     <filter id="subtle-shadow" x="-10%" y="-10%" width="120%" height="120%">
