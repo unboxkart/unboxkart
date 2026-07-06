@@ -109,20 +109,20 @@ export default function CategoriesView({
     // Price Range filter
     if (filters.priceRange && filters.priceRange !== "all") {
       switch (filters.priceRange) {
-        case "under-25":
-          result = result.filter((p) => p.price < 25);
+        case "under-1000":
+          result = result.filter((p) => p.price < 1000);
           break;
-        case "25-50":
-          result = result.filter((p) => p.price >= 25 && p.price <= 50);
+        case "1000-2500":
+          result = result.filter((p) => p.price >= 1000 && p.price <= 2500);
           break;
-        case "50-100":
-          result = result.filter((p) => p.price >= 50 && p.price <= 100);
+        case "2500-5000":
+          result = result.filter((p) => p.price >= 2500 && p.price <= 5000);
           break;
-        case "100-200":
-          result = result.filter((p) => p.price >= 100 && p.price <= 200);
+        case "5000-10000":
+          result = result.filter((p) => p.price >= 5000 && p.price <= 10000);
           break;
-        case "over-200":
-          result = result.filter((p) => p.price > 200);
+        case "over-10000":
+          result = result.filter((p) => p.price > 10000);
           break;
         default:
           break;
@@ -291,7 +291,14 @@ export default function CategoriesView({
               ))}
               {filters.priceRange !== "all" && (
                 <span className="px-2.5 py-1 bg-emerald-500/15 text-emerald-500 text-[10px] font-bold rounded-lg uppercase">
-                  Price: {filters.priceRange}
+                  Price: {
+                    filters.priceRange === "under-1000" ? "Under ₹1,000" :
+                    filters.priceRange === "1000-2500" ? "₹1,000 - ₹2,500" :
+                    filters.priceRange === "2500-5000" ? "₹2,500 - ₹5,000" :
+                    filters.priceRange === "5000-10000" ? "₹5,000 - ₹10,000" :
+                    filters.priceRange === "over-10000" ? "Over ₹10,000" :
+                    filters.priceRange
+                  }
                 </span>
               )}
 

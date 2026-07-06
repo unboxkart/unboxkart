@@ -163,8 +163,8 @@ export default function HomeView({
                   <p className="text-xs font-bold text-white truncate max-w-[150px]">Sony WH-1000XM5</p>
                 </div>
                 <div className="text-right">
-                  <span className="text-[10px] text-slate-400 line-through block">$399.99</span>
-                  <span className="text-sm font-black text-amber-500">$348.00</span>
+                  <span className="text-[10px] text-slate-400 line-through block">₹29,990</span>
+                  <span className="text-sm font-black text-amber-500">₹24,990</span>
                 </div>
               </div>
             </div>

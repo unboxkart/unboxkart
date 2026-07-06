@@ -95,9 +95,9 @@ export default function WishlistDrawer({
 
                   <div className="flex items-center justify-between gap-1 mt-1">
                     <div className="flex items-baseline gap-1.5">
-                      <span className="text-sm font-black text-slate-950 dark:text-white">${product.price.toFixed(2)}</span>
+                      <span className="text-sm font-black text-slate-950 dark:text-white">₹{product.price.toFixed(2)}</span>
                       {product.originalPrice > product.price && (
-                        <span className="text-[10px] text-slate-400 line-through">${product.originalPrice.toFixed(2)}</span>
+                        <span className="text-[10px] text-slate-400 line-through">₹{product.originalPrice.toFixed(2)}</span>
                       )}
                     </div>
                     

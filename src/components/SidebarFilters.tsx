@@ -135,11 +135,11 @@ export default function SidebarFilters({
         <div className="space-y-2">
           {[
             { id: "all", label: "Any Price" },
-            { id: "under-25", label: "Under $25" },
-            { id: "25-50", label: "$25 to $50" },
-            { id: "50-100", label: "$50 to $100" },
-            { id: "100-200", label: "$100 to $200" },
-            { id: "over-200", label: "Over $200" },
+            { id: "under-1000", label: "Under ₹1,000" },
+            { id: "1000-2500", label: "₹1,000 to ₹2,500" },
+            { id: "2500-5000", label: "₹2,500 to ₹5,000" },
+            { id: "5000-10000", label: "₹5,000 to ₹10,000" },
+            { id: "over-10000", label: "Over ₹10,000" },
           ].map((range) => (
             <label key={range.id} className="flex items-center gap-2.5 text-xs text-slate-600 dark:text-slate-300 cursor-pointer">
               <input

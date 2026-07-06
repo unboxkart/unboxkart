@@ -132,12 +132,12 @@ export default function ProductDetailsView({
           {/* Price Tag with discount details */}
           <div className="space-y-1 glass-card p-4 rounded-2xl">
             <div className="flex items-baseline gap-3">
-              <span className="text-4xl font-black text-slate-950 dark:text-white">${product.price.toFixed(2)}</span>
+              <span className="text-4xl font-black text-slate-950 dark:text-white">₹{product.price.toFixed(2)}</span>
               {product.originalPrice > product.price && (
                 <>
-                  <span className="text-lg text-slate-400 line-through">${product.originalPrice.toFixed(2)}</span>
+                  <span className="text-lg text-slate-400 line-through">₹{product.originalPrice.toFixed(2)}</span>
                   <span className="text-xs font-black bg-rose-500 text-white px-2.5 py-1 rounded uppercase tracking-wider">
-                    Save ${(product.originalPrice - product.price).toFixed(2)} ({product.discount}% Off)
+                    Save ₹{(product.originalPrice - product.price).toFixed(2)} ({product.discount}% Off)
                   </span>
                 </>
               )}

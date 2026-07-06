@@ -121,12 +121,12 @@ export default function ProductQuickView({
             {/* Pricing Section */}
             <div className="space-y-1">
               <div className="flex items-baseline gap-3">
-                <span className="text-3xl font-black text-slate-950 dark:text-white">${product.price.toFixed(2)}</span>
+                <span className="text-3xl font-black text-slate-950 dark:text-white">₹{product.price.toFixed(2)}</span>
                 {product.originalPrice > product.price && (
                   <>
-                    <span className="text-base text-slate-400 line-through">${product.originalPrice.toFixed(2)}</span>
+                    <span className="text-base text-slate-400 line-through">₹{product.originalPrice.toFixed(2)}</span>
                     <span className="text-xs font-black bg-rose-500 text-white px-2 py-0.5 rounded uppercase">
-                      Save {(product.originalPrice - product.price).toFixed(2)} ({product.discount}%)
+                      Save ₹{(product.originalPrice - product.price).toFixed(2)} ({product.discount}%)
                     </span>
                   </>
                 )}
