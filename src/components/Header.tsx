@@ -78,7 +78,7 @@ export default function Header({
           >
             <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-white  shadow-md transform group-hover:scale-105 transition-transform duration-200">
               <img 
-                src="/favicon.svg" 
+                src="./favicon.svg" 
                 alt="unboxkart logo" 
                 className="h-full w-full object-cover"
                 referrerPolicy="no-referrer"
