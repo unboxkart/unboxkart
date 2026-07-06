@@ -76,16 +76,18 @@ export default function Header({
             className="flex items-center gap-2 cursor-pointer select-none group"
             id="site-logo"
           >
-            <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-gradient-to-tr from-amber-500 to-amber-600 shadow-md transform group-hover:scale-105 transition-transform duration-200">
-              <ShoppingBag className="h-5.5 w-5.5 text-slate-950 stroke-[2.5]" />
+            <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-white p-1.5 shadow-md transform group-hover:scale-105 transition-transform duration-200">
+              <img 
+                src="/favicon.svg" 
+                alt="unboxkart logo" 
+                className="h-full w-full object-contain"
+                referrerPolicy="no-referrer"
+              />
             </div>
             <div>
               <span className="text-xl font-black tracking-tight bg-gradient-to-r from-white via-slate-100 to-amber-500 bg-clip-text text-transparent">
                 {SITE_CONFIG.siteName}
                 <span className="text-amber-500">.</span>
-              </span>
-              <span className="block text-[9px] text-slate-400 font-medium tracking-widest uppercase">
-                Affiliate Store
               </span>
             </div>
           </div>
