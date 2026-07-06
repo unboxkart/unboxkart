@@ -177,9 +177,9 @@ export default function Footer({ setCurrentView, setSelectedCategory }: FooterPr
       {/* Official Legal Amazon Disclosure Banner */}
       <div className="border-t border-slate-850 bg-slate-950 px-4 py-8">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center md:text-left space-y-4">
-          <p className="text-[11px] text-slate-500 leading-relaxed" id="amazon-disclosure-para">
+          {/* <p className="text-[11px] text-slate-500 leading-relaxed" id="amazon-disclosure-para">
             <strong>Amazon Associate Disclosure Notice:</strong> {SITE_CONFIG.siteName} is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com. As an Amazon Associate, we earn commissions from qualifying purchases. This comes at absolutely zero additional cost to you as a shopper. Price and availability of products are accurate as of the date/time indicated and are subject to change. Any price and availability information displayed on Amazon.com at the time of purchase will apply to the purchase of this product.
-          </p>
+          </p> */}
           
           <div className="flex flex-col md:flex-row items-center justify-between gap-4 pt-4 border-t border-slate-800/40 text-[11px] text-slate-500">
             <span>© 2026 {SITE_CONFIG.siteName}. All rights reserved worldwide. Hand-crafted shopping helper.</span>

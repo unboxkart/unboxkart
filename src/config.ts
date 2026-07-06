@@ -5,15 +5,15 @@ export const SITE_CONFIG: SiteConfig = {
   siteName: "unboxkart",
   siteTitle: "unboxkart - Your Ultimate Amazon Smart Shopping Guide",
   siteDescription: "Find the best Amazon deals, top-rated products, and expert buying guides. We scour Amazon daily to bring you handpicked deals with up to 70% savings.",
-  contactEmail: "support@unboxkart.com",
-  contactPhone: "+1 (555) 123-4567",
-  address: "100 Pine Street, Suite 1200, San Francisco, CA 94111",
+  contactEmail: "unboxkart123@gmail.com",
+  contactPhone: "+91 8686-142645",
+  address: "Kondapur, Hyderabad, Telangana-500084, India",
   socials: {
-    facebook: "https://facebook.com/unboxkart",
-    twitter: "https://twitter.com/unboxkart",
-    instagram: "https://instagram.com/unboxkart",
-    youtube: "https://youtube.com/unboxkart",
-    whatsapp: "https://wa.me/15551234567",
+    facebook: "https://facebook.com/",
+    twitter: "https://twitter.com/",
+    instagram: "https://instagram.com/",
+    youtube: "https://youtube.com/",
+    whatsapp: "https://wa.me/8686142645",
   },
   gaMeasurementId: "G-XXXXXXXXXX", // Google Analytics Measurement ID
 };
