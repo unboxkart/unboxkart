@@ -10,22 +10,22 @@ export const PRODUCTS: Product[] = [
     "category": "electronics",
     "subCategory": "Electronics Top Picks",
     "price": 24999,
-    "originalPrice": 45452.73,
-    "discount": 45,
+    "originalPrice": 30862.96,
+    "discount": 19,
     "rating": 4.2,
-    "reviewsCount": 20848,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/61f5ZCuSD6L._AC_UL300_SR300,200_.jpg",
+    "reviewsCount": 4586,
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/61f5ZCuSD6L.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/61f5ZCuSD6L._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/61f5ZCuSD6L.jpg"
     ],
-    "prime": false,
+    "prime": true,
     "available": true,
     "shortDescription": "Premium highly rated electronics bestseller, featuring robust user satisfaction, elegant packaging, and authentic OnePlus build.",
     "description": "This top-ranking product from Amazon's bestseller list is highly recommended in the Electronics division. Known for superior ergonomics, optimized design parameters, and outstanding reliability. Crafted using select components to ensure long-term utility for general use.",
     "features": [
       "Top Category Choice: Ranked in the top 10 bestsellers in Amazon.in's Electronics section.",
       "Authentic Engineering: Designed and supplied by OnePlus for maximum consumer durability.",
-      "High User Engagement: Backed by over 20,848 reviews and a strong 4.2-star ranking.",
+      "High User Engagement: Backed by over 4,586 reviews and a strong 4.2-star ranking.",
       "Seamless Convenience: Full warranty coverage with fast delivery via Amazon Prime distribution.",
       "Superior Quality: Selected materials processed to modern standard quality controls."
     ],
@@ -35,10 +35,10 @@ export const PRODUCTS: Product[] = [
       "Category": "electronics",
       "ASIN": "B0H3LKPC2K",
       "Bestseller Rank": "#1 in Electronics",
-      "Distribution": "Standard Merchant Delivery",
+      "Distribution": "Fulfill by Amazon Prime",
       "Condition": "100% Genuine and New"
     },
-    "isTodayDeal": false,
+    "isTodayDeal": true,
     "amazonUrl": "https://www.amazon.in/dp/B0H3LKPC2K?tag=digitalsel0ef-21"
   },
   {
@@ -47,15 +47,15 @@ export const PRODUCTS: Product[] = [
     "category": "electronics",
     "subCategory": "Electronics Top Picks",
     "price": 109999,
-    "originalPrice": 161763.24,
-    "discount": 32,
+    "originalPrice": 189653.45,
+    "discount": 42,
     "rating": 4.4,
     "reviewsCount": 1321,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/71tl8pu4fKL._AC_UL300_SR300,200_.jpg",
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/71tl8pu4fKL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/71tl8pu4fKL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/71tl8pu4fKL.jpg"
     ],
-    "prime": false,
+    "prime": true,
     "available": true,
     "shortDescription": "Premium highly rated electronics bestseller, featuring robust user satisfaction, elegant packaging, and authentic Samsung build.",
     "description": "This top-ranking product from Amazon's bestseller list is highly recommended in the Electronics division. Known for superior ergonomics, optimized design parameters, and outstanding reliability. Crafted using select components to ensure long-term utility for general use.",
@@ -72,7 +72,7 @@ export const PRODUCTS: Product[] = [
       "Category": "electronics",
       "ASIN": "B0DSKNKCYX",
       "Bestseller Rank": "#3 in Electronics",
-      "Distribution": "Standard Merchant Delivery",
+      "Distribution": "Fulfill by Amazon Prime",
       "Condition": "100% Genuine and New"
     },
     "isTodayDeal": true,
@@ -84,13 +84,13 @@ export const PRODUCTS: Product[] = [
     "category": "electronics",
     "subCategory": "Electronics Top Picks",
     "price": 25999,
-    "originalPrice": 45612.28,
-    "discount": 43,
+    "originalPrice": 42621.31,
+    "discount": 39,
     "rating": 4.2,
-    "reviewsCount": 19144,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/71hoMhV+VeL._AC_UL300_SR300,200_.jpg",
+    "reviewsCount": 9342,
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/71hoMhV+VeL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/71hoMhV+VeL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/71hoMhV+VeL.jpg"
     ],
     "prime": true,
     "available": true,
@@ -99,7 +99,7 @@ export const PRODUCTS: Product[] = [
     "features": [
       "Top Category Choice: Ranked in the top 10 bestsellers in Amazon.in's Electronics section.",
       "Authentic Engineering: Designed and supplied by Samsung for maximum consumer durability.",
-      "High User Engagement: Backed by over 19,144 reviews and a strong 4.2-star ranking.",
+      "High User Engagement: Backed by over 9,342 reviews and a strong 4.2-star ranking.",
       "Seamless Convenience: Full warranty coverage with fast delivery via Amazon Prime distribution.",
       "Superior Quality: Selected materials processed to modern standard quality controls."
     ],
@@ -112,7 +112,7 @@ export const PRODUCTS: Product[] = [
       "Distribution": "Fulfill by Amazon Prime",
       "Condition": "100% Genuine and New"
     },
-    "isTodayDeal": true,
+    "isTodayDeal": false,
     "amazonUrl": "https://www.amazon.in/dp/B0H4LBXQDC?tag=digitalsel0ef-21"
   },
   {
@@ -125,11 +125,11 @@ export const PRODUCTS: Product[] = [
     "discount": 26,
     "rating": 4.3,
     "reviewsCount": 948,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/61bbly9wcKL._AC_UL300_SR300,200_.jpg",
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/61bbly9wcKL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/61bbly9wcKL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/61bbly9wcKL.jpg"
     ],
-    "prime": false,
+    "prime": true,
     "available": true,
     "shortDescription": "Premium highly rated electronics bestseller, featuring robust user satisfaction, elegant packaging, and authentic OnePlus build.",
     "description": "This top-ranking product from Amazon's bestseller list is highly recommended in the Electronics division. Known for superior ergonomics, optimized design parameters, and outstanding reliability. Crafted using select components to ensure long-term utility for general use.",
@@ -146,10 +146,10 @@ export const PRODUCTS: Product[] = [
       "Category": "electronics",
       "ASIN": "B0GVYGLNH7",
       "Bestseller Rank": "#7 in Electronics",
-      "Distribution": "Standard Merchant Delivery",
+      "Distribution": "Fulfill by Amazon Prime",
       "Condition": "100% Genuine and New"
     },
-    "isTodayDeal": false,
+    "isTodayDeal": true,
     "amazonUrl": "https://www.amazon.in/dp/B0GVYGLNH7?tag=digitalsel0ef-21"
   },
   {
@@ -158,13 +158,13 @@ export const PRODUCTS: Product[] = [
     "category": "electronics",
     "subCategory": "Electronics Top Picks",
     "price": 36999,
-    "originalPrice": 44046.43,
-    "discount": 16,
+    "originalPrice": 60654.1,
+    "discount": 39,
     "rating": 4.2,
     "reviewsCount": 1285,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/61Di24QT6GL._AC_UL300_SR300,200_.jpg",
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/61Di24QT6GL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/61Di24QT6GL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/61Di24QT6GL.jpg"
     ],
     "prime": true,
     "available": true,
@@ -195,22 +195,22 @@ export const PRODUCTS: Product[] = [
     "category": "electronics",
     "subCategory": "Electronics Top Picks",
     "price": 16999,
-    "originalPrice": 24998.53,
-    "discount": 32,
+    "originalPrice": 24284.29,
+    "discount": 30,
     "rating": 4,
-    "reviewsCount": 3741,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/7101h6htEgL._AC_UL300_SR300,200_.jpg",
+    "reviewsCount": 3742,
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/7101h6htEgL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/7101h6htEgL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/7101h6htEgL.jpg"
     ],
-    "prime": false,
+    "prime": true,
     "available": true,
     "shortDescription": "Premium highly rated electronics bestseller, featuring robust user satisfaction, elegant packaging, and authentic Samsung build.",
     "description": "This top-ranking product from Amazon's bestseller list is highly recommended in the Electronics division. Known for superior ergonomics, optimized design parameters, and outstanding reliability. Crafted using select components to ensure long-term utility for general use.",
     "features": [
       "Top Category Choice: Ranked in the top 10 bestsellers in Amazon.in's Electronics section.",
       "Authentic Engineering: Designed and supplied by Samsung for maximum consumer durability.",
-      "High User Engagement: Backed by over 3,741 reviews and a strong 4-star ranking.",
+      "High User Engagement: Backed by over 3,742 reviews and a strong 4-star ranking.",
       "Seamless Convenience: Full warranty coverage with fast delivery via Amazon Prime distribution.",
       "Superior Quality: Selected materials processed to modern standard quality controls."
     ],
@@ -220,7 +220,7 @@ export const PRODUCTS: Product[] = [
       "Category": "electronics",
       "ASIN": "B0G81P4MPG",
       "Bestseller Rank": "#11 in Electronics",
-      "Distribution": "Standard Merchant Delivery",
+      "Distribution": "Fulfill by Amazon Prime",
       "Condition": "100% Genuine and New"
     },
     "isTodayDeal": false,
@@ -232,13 +232,13 @@ export const PRODUCTS: Product[] = [
     "category": "electronics",
     "subCategory": "Electronics Top Picks",
     "price": 14999,
-    "originalPrice": 19998.67,
-    "discount": 25,
+    "originalPrice": 24998.33,
+    "discount": 40,
     "rating": 4.2,
     "reviewsCount": 7761,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/613RKG4NCgL._AC_UL300_SR300,200_.jpg",
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/613RKG4NCgL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/613RKG4NCgL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/613RKG4NCgL.jpg"
     ],
     "prime": true,
     "available": true,
@@ -269,13 +269,13 @@ export const PRODUCTS: Product[] = [
     "category": "electronics",
     "subCategory": "Electronics Top Picks",
     "price": 1799,
-    "originalPrice": 2336.36,
-    "discount": 23,
+    "originalPrice": 2091.86,
+    "discount": 14,
     "rating": 4.3,
     "reviewsCount": 47338,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/51nBTTG3hNL._AC_UL300_SR300,200_.jpg",
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/51nBTTG3hNL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/51nBTTG3hNL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/51nBTTG3hNL.jpg"
     ],
     "prime": true,
     "available": true,
@@ -306,13 +306,13 @@ export const PRODUCTS: Product[] = [
     "category": "electronics",
     "subCategory": "Electronics Top Picks",
     "price": 24999,
-    "originalPrice": 33332,
-    "discount": 25,
+    "originalPrice": 29068.6,
+    "discount": 14,
     "rating": 4.1,
     "reviewsCount": 1202,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/61gQd7MKREL._AC_UL300_SR300,200_.jpg",
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/61gQd7MKREL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/61gQd7MKREL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/61gQd7MKREL.jpg"
     ],
     "prime": true,
     "available": true,
@@ -334,7 +334,7 @@ export const PRODUCTS: Product[] = [
       "Distribution": "Fulfill by Amazon Prime",
       "Condition": "100% Genuine and New"
     },
-    "isTodayDeal": true,
+    "isTodayDeal": false,
     "amazonUrl": "https://www.amazon.in/dp/B0GP8XYL7H?tag=digitalsel0ef-21"
   },
   {
@@ -343,13 +343,13 @@ export const PRODUCTS: Product[] = [
     "category": "electronics",
     "subCategory": "Electronics Top Picks",
     "price": 767,
-    "originalPrice": 1162.12,
-    "discount": 34,
+    "originalPrice": 1022.67,
+    "discount": 25,
     "rating": 4.4,
-    "reviewsCount": 21454,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/512UVkoMMEL._AC_UL300_SR300,200_.jpg",
+    "reviewsCount": 21453,
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/512UVkoMMEL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/512UVkoMMEL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/512UVkoMMEL.jpg"
     ],
     "prime": true,
     "available": true,
@@ -358,7 +358,7 @@ export const PRODUCTS: Product[] = [
     "features": [
       "Top Category Choice: Ranked in the top 10 bestsellers in Amazon.in's Electronics section.",
       "Authentic Engineering: Designed and supplied by Samsung for maximum consumer durability.",
-      "High User Engagement: Backed by over 21,454 reviews and a strong 4.4-star ranking.",
+      "High User Engagement: Backed by over 21,453 reviews and a strong 4.4-star ranking.",
       "Seamless Convenience: Full warranty coverage with fast delivery via Amazon Prime distribution.",
       "Superior Quality: Selected materials processed to modern standard quality controls."
     ],
@@ -380,13 +380,13 @@ export const PRODUCTS: Product[] = [
     "category": "home-kitchen",
     "subCategory": "Home & Kitchen Top Picks",
     "price": 1,
-    "originalPrice": 1.45,
-    "discount": 31,
+    "originalPrice": 1.22,
+    "discount": 18,
     "rating": 4.5,
-    "reviewsCount": 904272,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/415aawinNhL._AC_UL300_SR300,200_.jpg",
+    "reviewsCount": 904269,
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/415aawinNhL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/415aawinNhL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/415aawinNhL.jpg"
     ],
     "prime": true,
     "available": true,
@@ -395,7 +395,7 @@ export const PRODUCTS: Product[] = [
     "features": [
       "Top Category Choice: Ranked in the top 10 bestsellers in Amazon.in's Home & Kitchen section.",
       "Authentic Engineering: Designed and supplied by LPG for maximum consumer durability.",
-      "High User Engagement: Backed by over 904,272 reviews and a strong 4.5-star ranking.",
+      "High User Engagement: Backed by over 904,269 reviews and a strong 4.5-star ranking.",
       "Seamless Convenience: Full warranty coverage with fast delivery via Amazon Prime distribution.",
       "Superior Quality: Selected materials processed to modern standard quality controls."
     ],
@@ -408,7 +408,7 @@ export const PRODUCTS: Product[] = [
       "Distribution": "Fulfill by Amazon Prime",
       "Condition": "100% Genuine and New"
     },
-    "isTodayDeal": true,
+    "isTodayDeal": false,
     "amazonUrl": "https://www.amazon.in/dp/B07QP9PTZP?tag=digitalsel0ef-21"
   },
   {
@@ -417,15 +417,15 @@ export const PRODUCTS: Product[] = [
     "category": "home-kitchen",
     "subCategory": "Home & Kitchen Top Picks",
     "price": 410,
-    "originalPrice": 554.05,
-    "discount": 26,
+    "originalPrice": 602.94,
+    "discount": 32,
     "rating": 4.4,
     "reviewsCount": 58392,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/61fn1xtHO4L._AC_UL300_SR300,200_.jpg",
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/61fn1xtHO4L.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/61fn1xtHO4L._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/61fn1xtHO4L.jpg"
     ],
-    "prime": false,
+    "prime": true,
     "available": true,
     "shortDescription": "Premium highly rated home & kitchen bestseller, featuring robust user satisfaction, elegant packaging, and authentic Amazon build.",
     "description": "This top-ranking product from Amazon's bestseller list is highly recommended in the Home & Kitchen division. Known for superior ergonomics, optimized design parameters, and outstanding reliability. Crafted using select components to ensure long-term utility for general use.",
@@ -442,10 +442,10 @@ export const PRODUCTS: Product[] = [
       "Category": "home-kitchen",
       "ASIN": "B0821PN8L4",
       "Bestseller Rank": "#3 in Home & Kitchen",
-      "Distribution": "Standard Merchant Delivery",
+      "Distribution": "Fulfill by Amazon Prime",
       "Condition": "100% Genuine and New"
     },
-    "isTodayDeal": false,
+    "isTodayDeal": true,
     "amazonUrl": "https://www.amazon.in/dp/B0821PN8L4?tag=digitalsel0ef-21"
   },
   {
@@ -454,13 +454,13 @@ export const PRODUCTS: Product[] = [
     "category": "home-kitchen",
     "subCategory": "Home & Kitchen Top Picks",
     "price": 1699,
-    "originalPrice": 2498.53,
-    "discount": 32,
+    "originalPrice": 2123.75,
+    "discount": 20,
     "rating": 4.4,
-    "reviewsCount": 27344,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/81zi4U9ZxgL._AC_UL300_SR300,200_.jpg",
+    "reviewsCount": 27346,
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/81zi4U9ZxgL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/81zi4U9ZxgL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/81zi4U9ZxgL.jpg"
     ],
     "prime": true,
     "available": true,
@@ -469,7 +469,7 @@ export const PRODUCTS: Product[] = [
     "features": [
       "Top Category Choice: Ranked in the top 10 bestsellers in Amazon.in's Home & Kitchen section.",
       "Authentic Engineering: Designed and supplied by LiMETRO for maximum consumer durability.",
-      "High User Engagement: Backed by over 27,344 reviews and a strong 4.4-star ranking.",
+      "High User Engagement: Backed by over 27,346 reviews and a strong 4.4-star ranking.",
       "Seamless Convenience: Full warranty coverage with fast delivery via Amazon Prime distribution.",
       "Superior Quality: Selected materials processed to modern standard quality controls."
     ],
@@ -491,15 +491,15 @@ export const PRODUCTS: Product[] = [
     "category": "home-kitchen",
     "subCategory": "Home & Kitchen Top Picks",
     "price": 499,
-    "originalPrice": 756.06,
-    "discount": 34,
+    "originalPrice": 723.19,
+    "discount": 31,
     "rating": 4.2,
     "reviewsCount": 7772,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/617-hdppENL._AC_UL300_SR300,200_.jpg",
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/617-hdppENL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/617-hdppENL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/617-hdppENL.jpg"
     ],
-    "prime": true,
+    "prime": false,
     "available": true,
     "shortDescription": "Premium highly rated home & kitchen bestseller, featuring robust user satisfaction, elegant packaging, and authentic AGARO build.",
     "description": "This top-ranking product from Amazon's bestseller list is highly recommended in the Home & Kitchen division. Known for superior ergonomics, optimized design parameters, and outstanding reliability. Crafted using select components to ensure long-term utility for general use.",
@@ -516,10 +516,10 @@ export const PRODUCTS: Product[] = [
       "Category": "home-kitchen",
       "ASIN": "B0C897PVVM",
       "Bestseller Rank": "#7 in Home & Kitchen",
-      "Distribution": "Fulfill by Amazon Prime",
+      "Distribution": "Standard Merchant Delivery",
       "Condition": "100% Genuine and New"
     },
-    "isTodayDeal": true,
+    "isTodayDeal": false,
     "amazonUrl": "https://www.amazon.in/dp/B0C897PVVM?tag=digitalsel0ef-21"
   },
   {
@@ -528,22 +528,22 @@ export const PRODUCTS: Product[] = [
     "category": "home-kitchen",
     "subCategory": "Home & Kitchen Top Picks",
     "price": 1198,
-    "originalPrice": 1932.26,
-    "discount": 38,
+    "originalPrice": 1535.9,
+    "discount": 22,
     "rating": 4.2,
-    "reviewsCount": 163843,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/71vkps3XMVL._AC_UL300_SR300,200_.jpg",
+    "reviewsCount": 163856,
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/71vkps3XMVL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/71vkps3XMVL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/71vkps3XMVL.jpg"
     ],
-    "prime": false,
+    "prime": true,
     "available": true,
     "shortDescription": "Premium highly rated home & kitchen bestseller, featuring robust user satisfaction, elegant packaging, and authentic Amazon build.",
     "description": "This top-ranking product from Amazon's bestseller list is highly recommended in the Home & Kitchen division. Known for superior ergonomics, optimized design parameters, and outstanding reliability. Crafted using select components to ensure long-term utility for general use.",
     "features": [
       "Top Category Choice: Ranked in the top 10 bestsellers in Amazon.in's Home & Kitchen section.",
       "Authentic Engineering: Designed and supplied by Amazon for maximum consumer durability.",
-      "High User Engagement: Backed by over 163,843 reviews and a strong 4.2-star ranking.",
+      "High User Engagement: Backed by over 163,856 reviews and a strong 4.2-star ranking.",
       "Seamless Convenience: Full warranty coverage with fast delivery via Amazon Prime distribution.",
       "Superior Quality: Selected materials processed to modern standard quality controls."
     ],
@@ -553,7 +553,7 @@ export const PRODUCTS: Product[] = [
       "Category": "home-kitchen",
       "ASIN": "B0FWRLQND8",
       "Bestseller Rank": "#9 in Home & Kitchen",
-      "Distribution": "Standard Merchant Delivery",
+      "Distribution": "Fulfill by Amazon Prime",
       "Condition": "100% Genuine and New"
     },
     "isTodayDeal": true,
@@ -565,22 +565,22 @@ export const PRODUCTS: Product[] = [
     "category": "home-kitchen",
     "subCategory": "Home & Kitchen Top Picks",
     "price": 1599,
-    "originalPrice": 1998.75,
-    "discount": 20,
+    "originalPrice": 2160.81,
+    "discount": 26,
     "rating": 4.4,
-    "reviewsCount": 32188,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/71rH4vEE4nL._AC_UL300_SR300,200_.jpg",
+    "reviewsCount": 32184,
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/71rH4vEE4nL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/71rH4vEE4nL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/71rH4vEE4nL.jpg"
     ],
-    "prime": false,
+    "prime": true,
     "available": true,
     "shortDescription": "Premium highly rated home & kitchen bestseller, featuring robust user satisfaction, elegant packaging, and authentic NutriPro build.",
     "description": "This top-ranking product from Amazon's bestseller list is highly recommended in the Home & Kitchen division. Known for superior ergonomics, optimized design parameters, and outstanding reliability. Crafted using select components to ensure long-term utility for general use.",
     "features": [
       "Top Category Choice: Ranked in the top 10 bestsellers in Amazon.in's Home & Kitchen section.",
       "Authentic Engineering: Designed and supplied by NutriPro for maximum consumer durability.",
-      "High User Engagement: Backed by over 32,188 reviews and a strong 4.4-star ranking.",
+      "High User Engagement: Backed by over 32,184 reviews and a strong 4.4-star ranking.",
       "Seamless Convenience: Full warranty coverage with fast delivery via Amazon Prime distribution.",
       "Superior Quality: Selected materials processed to modern standard quality controls."
     ],
@@ -590,7 +590,7 @@ export const PRODUCTS: Product[] = [
       "Category": "home-kitchen",
       "ASIN": "B09J2T124D",
       "Bestseller Rank": "#11 in Home & Kitchen",
-      "Distribution": "Standard Merchant Delivery",
+      "Distribution": "Fulfill by Amazon Prime",
       "Condition": "100% Genuine and New"
     },
     "isTodayDeal": true,
@@ -601,14 +601,14 @@ export const PRODUCTS: Product[] = [
     "name": "Wakefit 100% Waterproof Premium Cotton Mattress Protector | Breathable and Hypoallergenic Ultra Soft Fitted Bed Protector 78\"",
     "category": "home-kitchen",
     "subCategory": "Home & Kitchen Top Picks",
-    "price": 6739,
-    "originalPrice": 9766.67,
-    "discount": 31,
+    "price": 6037,
+    "originalPrice": 6707.78,
+    "discount": 10,
     "rating": 4.3,
     "reviewsCount": 41084,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/61sRf7oDELL._AC_UL300_SR300,200_.jpg",
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/61sRf7oDELL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/61sRf7oDELL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/61sRf7oDELL.jpg"
     ],
     "prime": true,
     "available": true,
@@ -630,7 +630,7 @@ export const PRODUCTS: Product[] = [
       "Distribution": "Fulfill by Amazon Prime",
       "Condition": "100% Genuine and New"
     },
-    "isTodayDeal": false,
+    "isTodayDeal": true,
     "amazonUrl": "https://www.amazon.in/dp/B0C1S894S3?tag=digitalsel0ef-21"
   },
   {
@@ -639,15 +639,15 @@ export const PRODUCTS: Product[] = [
     "category": "home-kitchen",
     "subCategory": "Home & Kitchen Top Picks",
     "price": 4770,
-    "originalPrice": 7014.71,
-    "discount": 32,
+    "originalPrice": 7453.13,
+    "discount": 36,
     "rating": 4.4,
     "reviewsCount": 7763,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/51CM1SXLDIL._AC_UL300_SR300,200_.jpg",
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/51CM1SXLDIL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/51CM1SXLDIL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/51CM1SXLDIL.jpg"
     ],
-    "prime": false,
+    "prime": true,
     "available": true,
     "shortDescription": "Premium highly rated home & kitchen bestseller, featuring robust user satisfaction, elegant packaging, and authentic PHILIPS build.",
     "description": "This top-ranking product from Amazon's bestseller list is highly recommended in the Home & Kitchen division. Known for superior ergonomics, optimized design parameters, and outstanding reliability. Crafted using select components to ensure long-term utility for general use.",
@@ -664,7 +664,7 @@ export const PRODUCTS: Product[] = [
       "Category": "home-kitchen",
       "ASIN": "B0D14BB5XY",
       "Bestseller Rank": "#15 in Home & Kitchen",
-      "Distribution": "Standard Merchant Delivery",
+      "Distribution": "Fulfill by Amazon Prime",
       "Condition": "100% Genuine and New"
     },
     "isTodayDeal": true,
@@ -676,15 +676,15 @@ export const PRODUCTS: Product[] = [
     "category": "home-kitchen",
     "subCategory": "Home & Kitchen Top Picks",
     "price": 16349,
-    "originalPrice": 19010.47,
-    "discount": 14,
+    "originalPrice": 24771.21,
+    "discount": 34,
     "rating": 4.4,
     "reviewsCount": 87833,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/91wxHEnm4JL._AC_UL300_SR300,200_.jpg",
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/91wxHEnm4JL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/91wxHEnm4JL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/91wxHEnm4JL.jpg"
     ],
-    "prime": false,
+    "prime": true,
     "available": true,
     "shortDescription": "Premium highly rated home & kitchen bestseller, featuring robust user satisfaction, elegant packaging, and authentic Wakefit build.",
     "description": "This top-ranking product from Amazon's bestseller list is highly recommended in the Home & Kitchen division. Known for superior ergonomics, optimized design parameters, and outstanding reliability. Crafted using select components to ensure long-term utility for general use.",
@@ -701,10 +701,10 @@ export const PRODUCTS: Product[] = [
       "Category": "home-kitchen",
       "ASIN": "B00RAEXNIK",
       "Bestseller Rank": "#17 in Home & Kitchen",
-      "Distribution": "Standard Merchant Delivery",
+      "Distribution": "Fulfill by Amazon Prime",
       "Condition": "100% Genuine and New"
     },
-    "isTodayDeal": false,
+    "isTodayDeal": true,
     "amazonUrl": "https://www.amazon.in/dp/B00RAEXNIK?tag=digitalsel0ef-21"
   },
   {
@@ -713,13 +713,13 @@ export const PRODUCTS: Product[] = [
     "category": "home-kitchen",
     "subCategory": "Home & Kitchen Top Picks",
     "price": 78,
-    "originalPrice": 120,
-    "discount": 35,
+    "originalPrice": 139.29,
+    "discount": 44,
     "rating": 4.2,
     "reviewsCount": 3375,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/61mZOuW2-NL._AC_UL300_SR300,200_.jpg",
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/61mZOuW2-NL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/61mZOuW2-NL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/61mZOuW2-NL.jpg"
     ],
     "prime": true,
     "available": true,
@@ -750,13 +750,13 @@ export const PRODUCTS: Product[] = [
     "category": "fashion",
     "subCategory": "Fashion Top Picks",
     "price": 659,
-    "originalPrice": 928.17,
-    "discount": 29,
+    "originalPrice": 813.58,
+    "discount": 19,
     "rating": 4.1,
-    "reviewsCount": 82028,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/61yAbOVbQ6L._AC_UL300_SR300,200_.jpg",
+    "reviewsCount": 82029,
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/61yAbOVbQ6L.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/61yAbOVbQ6L._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/61yAbOVbQ6L.jpg"
     ],
     "prime": true,
     "available": true,
@@ -765,7 +765,7 @@ export const PRODUCTS: Product[] = [
     "features": [
       "Top Category Choice: Ranked in the top 10 bestsellers in Amazon.in's Fashion section.",
       "Authentic Engineering: Designed and supplied by Allen for maximum consumer durability.",
-      "High User Engagement: Backed by over 82,028 reviews and a strong 4.1-star ranking.",
+      "High User Engagement: Backed by over 82,029 reviews and a strong 4.1-star ranking.",
       "Seamless Convenience: Full warranty coverage with fast delivery via Amazon Prime distribution.",
       "Superior Quality: Selected materials processed to modern standard quality controls."
     ],
@@ -778,7 +778,7 @@ export const PRODUCTS: Product[] = [
       "Distribution": "Fulfill by Amazon Prime",
       "Condition": "100% Genuine and New"
     },
-    "isTodayDeal": false,
+    "isTodayDeal": true,
     "amazonUrl": "https://www.amazon.in/dp/B06Y2FG6R7?tag=digitalsel0ef-21"
   },
   {
@@ -791,9 +791,9 @@ export const PRODUCTS: Product[] = [
     "discount": 39,
     "rating": 4.1,
     "reviewsCount": 6494,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/81biKixsaDL._AC_UL300_SR300,200_.jpg",
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/81biKixsaDL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/81biKixsaDL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/81biKixsaDL.jpg"
     ],
     "prime": true,
     "available": true,
@@ -815,7 +815,7 @@ export const PRODUCTS: Product[] = [
       "Distribution": "Fulfill by Amazon Prime",
       "Condition": "100% Genuine and New"
     },
-    "isTodayDeal": false,
+    "isTodayDeal": true,
     "amazonUrl": "https://www.amazon.in/dp/B0DGX12XXV?tag=digitalsel0ef-21"
   },
   {
@@ -824,13 +824,13 @@ export const PRODUCTS: Product[] = [
     "category": "fashion",
     "subCategory": "Fashion Top Picks",
     "price": 799,
-    "originalPrice": 1331.67,
-    "discount": 40,
+    "originalPrice": 940,
+    "discount": 15,
     "rating": 4.1,
     "reviewsCount": 8372,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/51JtGs04X7L._AC_UL300_SR300,200_.jpg",
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/51JtGs04X7L.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/51JtGs04X7L._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/51JtGs04X7L.jpg"
     ],
     "prime": true,
     "available": true,
@@ -852,7 +852,7 @@ export const PRODUCTS: Product[] = [
       "Distribution": "Fulfill by Amazon Prime",
       "Condition": "100% Genuine and New"
     },
-    "isTodayDeal": true,
+    "isTodayDeal": false,
     "amazonUrl": "https://www.amazon.in/dp/B0FRFXX2C3?tag=digitalsel0ef-21"
   },
   {
@@ -861,15 +861,15 @@ export const PRODUCTS: Product[] = [
     "category": "fashion",
     "subCategory": "Fashion Top Picks",
     "price": 399,
-    "originalPrice": 480.72,
-    "discount": 17,
+    "originalPrice": 712.5,
+    "discount": 44,
     "rating": 3.9,
     "reviewsCount": 39491,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/713n+TxyfCL._AC_UL300_SR300,200_.jpg",
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/713n+TxyfCL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/713n+TxyfCL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/713n+TxyfCL.jpg"
     ],
-    "prime": true,
+    "prime": false,
     "available": true,
     "shortDescription": "Premium highly rated fashion bestseller, featuring robust user satisfaction, elegant packaging, and authentic Amazon build.",
     "description": "This top-ranking product from Amazon's bestseller list is highly recommended in the Fashion division. Known for superior ergonomics, optimized design parameters, and outstanding reliability. Crafted using select components to ensure long-term utility for general use.",
@@ -886,10 +886,10 @@ export const PRODUCTS: Product[] = [
       "Category": "fashion",
       "ASIN": "B07MZM26XG",
       "Bestseller Rank": "#7 in Fashion",
-      "Distribution": "Fulfill by Amazon Prime",
+      "Distribution": "Standard Merchant Delivery",
       "Condition": "100% Genuine and New"
     },
-    "isTodayDeal": false,
+    "isTodayDeal": true,
     "amazonUrl": "https://www.amazon.in/dp/B07MZM26XG?tag=digitalsel0ef-21"
   },
   {
@@ -898,15 +898,15 @@ export const PRODUCTS: Product[] = [
     "category": "fashion",
     "subCategory": "Fashion Top Picks",
     "price": 449,
-    "originalPrice": 568.35,
-    "discount": 21,
+    "originalPrice": 787.72,
+    "discount": 43,
     "rating": 4.2,
     "reviewsCount": 38612,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/61bMkDF97VL._AC_UL300_SR300,200_.jpg",
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/61bMkDF97VL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/61bMkDF97VL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/61bMkDF97VL.jpg"
     ],
-    "prime": false,
+    "prime": true,
     "available": true,
     "shortDescription": "Premium highly rated fashion bestseller, featuring robust user satisfaction, elegant packaging, and authentic Jockey build.",
     "description": "This top-ranking product from Amazon's bestseller list is highly recommended in the Fashion division. Known for superior ergonomics, optimized design parameters, and outstanding reliability. Crafted using select components to ensure long-term utility for general use.",
@@ -923,7 +923,7 @@ export const PRODUCTS: Product[] = [
       "Category": "fashion",
       "ASIN": "B010FMJKFS",
       "Bestseller Rank": "#9 in Fashion",
-      "Distribution": "Standard Merchant Delivery",
+      "Distribution": "Fulfill by Amazon Prime",
       "Condition": "100% Genuine and New"
     },
     "isTodayDeal": true,
@@ -935,13 +935,13 @@ export const PRODUCTS: Product[] = [
     "category": "fashion",
     "subCategory": "Fashion Top Picks",
     "price": 699,
-    "originalPrice": 1027.94,
-    "discount": 32,
+    "originalPrice": 794.32,
+    "discount": 12,
     "rating": 4,
     "reviewsCount": 44965,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/51xOEh5DKYL._AC_UL300_SR300,200_.jpg",
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/51xOEh5DKYL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/51xOEh5DKYL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/51xOEh5DKYL.jpg"
     ],
     "prime": true,
     "available": true,
@@ -963,7 +963,7 @@ export const PRODUCTS: Product[] = [
       "Distribution": "Fulfill by Amazon Prime",
       "Condition": "100% Genuine and New"
     },
-    "isTodayDeal": false,
+    "isTodayDeal": true,
     "amazonUrl": "https://www.amazon.in/dp/B076CMJXML?tag=digitalsel0ef-21"
   },
   {
@@ -972,13 +972,13 @@ export const PRODUCTS: Product[] = [
     "category": "fashion",
     "subCategory": "Fashion Top Picks",
     "price": 644,
-    "originalPrice": 975.76,
-    "discount": 34,
+    "originalPrice": 715.56,
+    "discount": 10,
     "rating": 4,
     "reviewsCount": 1390,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/510YvuTPohL._AC_UL300_SR300,200_.jpg",
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/510YvuTPohL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/510YvuTPohL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/510YvuTPohL.jpg"
     ],
     "prime": true,
     "available": true,
@@ -1000,7 +1000,7 @@ export const PRODUCTS: Product[] = [
       "Distribution": "Fulfill by Amazon Prime",
       "Condition": "100% Genuine and New"
     },
-    "isTodayDeal": false,
+    "isTodayDeal": true,
     "amazonUrl": "https://www.amazon.in/dp/B0D4VQ5NDD?tag=digitalsel0ef-21"
   },
   {
@@ -1009,13 +1009,13 @@ export const PRODUCTS: Product[] = [
     "category": "fashion",
     "subCategory": "Fashion Top Picks",
     "price": 156,
-    "originalPrice": 195,
-    "discount": 20,
+    "originalPrice": 210.81,
+    "discount": 26,
     "rating": 3.7,
     "reviewsCount": 313,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/51HlRFuXT5L._AC_UL300_SR300,200_.jpg",
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/51HlRFuXT5L.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/51HlRFuXT5L._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/51HlRFuXT5L.jpg"
     ],
     "prime": true,
     "available": true,
@@ -1046,15 +1046,15 @@ export const PRODUCTS: Product[] = [
     "category": "fashion",
     "subCategory": "Fashion Top Picks",
     "price": 449,
-    "originalPrice": 568.35,
-    "discount": 21,
+    "originalPrice": 748.33,
+    "discount": 40,
     "rating": 3.5,
     "reviewsCount": 2378,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/61D2GVIp-RL._AC_UL300_SR300,200_.jpg",
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/61D2GVIp-RL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/61D2GVIp-RL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/61D2GVIp-RL.jpg"
     ],
-    "prime": true,
+    "prime": false,
     "available": true,
     "shortDescription": "Premium highly rated fashion bestseller, featuring robust user satisfaction, elegant packaging, and authentic BULLMER build.",
     "description": "This top-ranking product from Amazon's bestseller list is highly recommended in the Fashion division. Known for superior ergonomics, optimized design parameters, and outstanding reliability. Crafted using select components to ensure long-term utility for general use.",
@@ -1071,7 +1071,7 @@ export const PRODUCTS: Product[] = [
       "Category": "fashion",
       "ASIN": "B0DJYJNTM3",
       "Bestseller Rank": "#17 in Fashion",
-      "Distribution": "Fulfill by Amazon Prime",
+      "Distribution": "Standard Merchant Delivery",
       "Condition": "100% Genuine and New"
     },
     "isTodayDeal": true,
@@ -1083,13 +1083,13 @@ export const PRODUCTS: Product[] = [
     "category": "fashion",
     "subCategory": "Fashion Top Picks",
     "price": 449,
-    "originalPrice": 590.79,
-    "discount": 24,
+    "originalPrice": 575.64,
+    "discount": 22,
     "rating": 3.7,
     "reviewsCount": 1290,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/71vbruRnONL._AC_UL300_SR300,200_.jpg",
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/71vbruRnONL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/71vbruRnONL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/71vbruRnONL.jpg"
     ],
     "prime": true,
     "available": true,
@@ -1111,7 +1111,7 @@ export const PRODUCTS: Product[] = [
       "Distribution": "Fulfill by Amazon Prime",
       "Condition": "100% Genuine and New"
     },
-    "isTodayDeal": true,
+    "isTodayDeal": false,
     "amazonUrl": "https://www.amazon.in/dp/B0DRFN3SBV?tag=digitalsel0ef-21"
   },
   {
@@ -1120,15 +1120,15 @@ export const PRODUCTS: Product[] = [
     "category": "beauty",
     "subCategory": "Beauty Top Picks",
     "price": 369,
-    "originalPrice": 485.53,
-    "discount": 24,
+    "originalPrice": 527.14,
+    "discount": 30,
     "rating": 3.8,
     "reviewsCount": 36810,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/718F+0RgtfL._AC_UL300_SR300,200_.jpg",
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/718F+0RgtfL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/718F+0RgtfL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/718F+0RgtfL.jpg"
     ],
-    "prime": true,
+    "prime": false,
     "available": true,
     "shortDescription": "Premium highly rated beauty bestseller, featuring robust user satisfaction, elegant packaging, and authentic Ghar build.",
     "description": "This top-ranking product from Amazon's bestseller list is highly recommended in the Beauty division. Known for superior ergonomics, optimized design parameters, and outstanding reliability. Crafted using select components to ensure long-term utility for general use.",
@@ -1145,10 +1145,10 @@ export const PRODUCTS: Product[] = [
       "Category": "beauty",
       "ASIN": "B09S6M7JQJ",
       "Bestseller Rank": "#1 in Beauty",
-      "Distribution": "Fulfill by Amazon Prime",
+      "Distribution": "Standard Merchant Delivery",
       "Condition": "100% Genuine and New"
     },
-    "isTodayDeal": false,
+    "isTodayDeal": true,
     "amazonUrl": "https://www.amazon.in/dp/B09S6M7JQJ?tag=digitalsel0ef-21"
   },
   {
@@ -1157,13 +1157,13 @@ export const PRODUCTS: Product[] = [
     "category": "beauty",
     "subCategory": "Beauty Top Picks",
     "price": 252,
-    "originalPrice": 331.58,
-    "discount": 24,
+    "originalPrice": 413.11,
+    "discount": 39,
     "rating": 4.3,
-    "reviewsCount": 34417,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/51wqZYWGr+L._AC_UL300_SR300,200_.jpg",
+    "reviewsCount": 34418,
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/51wqZYWGr+L.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/51wqZYWGr+L._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/51wqZYWGr+L.jpg"
     ],
     "prime": true,
     "available": true,
@@ -1172,7 +1172,7 @@ export const PRODUCTS: Product[] = [
     "features": [
       "Top Category Choice: Ranked in the top 10 bestsellers in Amazon.in's Beauty section.",
       "Authentic Engineering: Designed and supplied by Simple for maximum consumer durability.",
-      "High User Engagement: Backed by over 34,417 reviews and a strong 4.3-star ranking.",
+      "High User Engagement: Backed by over 34,418 reviews and a strong 4.3-star ranking.",
       "Seamless Convenience: Full warranty coverage with fast delivery via Amazon Prime distribution.",
       "Superior Quality: Selected materials processed to modern standard quality controls."
     ],
@@ -1194,13 +1194,13 @@ export const PRODUCTS: Product[] = [
     "category": "beauty",
     "subCategory": "Beauty Top Picks",
     "price": 151,
-    "originalPrice": 255.93,
-    "discount": 41,
+    "originalPrice": 198.68,
+    "discount": 24,
     "rating": 4.5,
     "reviewsCount": 58107,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/61cT-uFfHOL._AC_UL300_SR300,200_.jpg",
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/61cT-uFfHOL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/61cT-uFfHOL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/61cT-uFfHOL.jpg"
     ],
     "prime": false,
     "available": true,
@@ -1222,7 +1222,7 @@ export const PRODUCTS: Product[] = [
       "Distribution": "Standard Merchant Delivery",
       "Condition": "100% Genuine and New"
     },
-    "isTodayDeal": true,
+    "isTodayDeal": false,
     "amazonUrl": "https://www.amazon.in/dp/B07M9XYH9K?tag=digitalsel0ef-21"
   },
   {
@@ -1230,14 +1230,14 @@ export const PRODUCTS: Product[] = [
     "name": "Cetaphil Gentle Skin Hydrating Face Wash 118ml, Paraben Free, Sulphate-Free Gentle Skin Hydrating Cleanser with Niacinamide,",
     "category": "beauty",
     "subCategory": "Beauty Top Picks",
-    "price": 7090,
-    "originalPrice": 9207.79,
-    "discount": 23,
+    "price": 6629,
+    "originalPrice": 8084.15,
+    "discount": 18,
     "rating": 4.4,
-    "reviewsCount": 52749,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/61Ti2uv6V3L._AC_UL300_SR300,200_.jpg",
+    "reviewsCount": 52747,
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/61Ti2uv6V3L.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/61Ti2uv6V3L._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/61Ti2uv6V3L.jpg"
     ],
     "prime": true,
     "available": true,
@@ -1246,7 +1246,7 @@ export const PRODUCTS: Product[] = [
     "features": [
       "Top Category Choice: Ranked in the top 10 bestsellers in Amazon.in's Beauty section.",
       "Authentic Engineering: Designed and supplied by Cetaphil for maximum consumer durability.",
-      "High User Engagement: Backed by over 52,749 reviews and a strong 4.4-star ranking.",
+      "High User Engagement: Backed by over 52,747 reviews and a strong 4.4-star ranking.",
       "Seamless Convenience: Full warranty coverage with fast delivery via Amazon Prime distribution.",
       "Superior Quality: Selected materials processed to modern standard quality controls."
     ],
@@ -1259,7 +1259,7 @@ export const PRODUCTS: Product[] = [
       "Distribution": "Fulfill by Amazon Prime",
       "Condition": "100% Genuine and New"
     },
-    "isTodayDeal": true,
+    "isTodayDeal": false,
     "amazonUrl": "https://www.amazon.in/dp/B01CCGW4OE?tag=digitalsel0ef-21"
   },
   {
@@ -1268,13 +1268,13 @@ export const PRODUCTS: Product[] = [
     "category": "beauty",
     "subCategory": "Beauty Top Picks",
     "price": 99,
-    "originalPrice": 162.3,
-    "discount": 39,
+    "originalPrice": 165,
+    "discount": 40,
     "rating": 4.2,
     "reviewsCount": 763,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/615jAbgKimL._AC_UL300_SR300,200_.jpg",
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/615jAbgKimL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/615jAbgKimL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/615jAbgKimL.jpg"
     ],
     "prime": true,
     "available": true,
@@ -1296,7 +1296,7 @@ export const PRODUCTS: Product[] = [
       "Distribution": "Fulfill by Amazon Prime",
       "Condition": "100% Genuine and New"
     },
-    "isTodayDeal": false,
+    "isTodayDeal": true,
     "amazonUrl": "https://www.amazon.in/dp/B0FMR7GHFF?tag=digitalsel0ef-21"
   },
   {
@@ -1305,15 +1305,15 @@ export const PRODUCTS: Product[] = [
     "category": "beauty",
     "subCategory": "Beauty Top Picks",
     "price": 400.95,
-    "originalPrice": 729,
-    "discount": 45,
+    "originalPrice": 527.57,
+    "discount": 24,
     "rating": 4.3,
     "reviewsCount": 46259,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/51GhOWodz1L._AC_UL300_SR300,200_.jpg",
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/51GhOWodz1L.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/51GhOWodz1L._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/51GhOWodz1L.jpg"
     ],
-    "prime": false,
+    "prime": true,
     "available": true,
     "shortDescription": "Premium highly rated beauty bestseller, featuring robust user satisfaction, elegant packaging, and authentic L'Oreal build.",
     "description": "This top-ranking product from Amazon's bestseller list is highly recommended in the Beauty division. Known for superior ergonomics, optimized design parameters, and outstanding reliability. Crafted using select components to ensure long-term utility for general use.",
@@ -1330,7 +1330,7 @@ export const PRODUCTS: Product[] = [
       "Category": "beauty",
       "ASIN": "B08FW1GJ4F",
       "Bestseller Rank": "#11 in Beauty",
-      "Distribution": "Standard Merchant Delivery",
+      "Distribution": "Fulfill by Amazon Prime",
       "Condition": "100% Genuine and New"
     },
     "isTodayDeal": true,
@@ -1342,13 +1342,13 @@ export const PRODUCTS: Product[] = [
     "category": "beauty",
     "subCategory": "Beauty Top Picks",
     "price": 497,
-    "originalPrice": 552.22,
-    "discount": 10,
+    "originalPrice": 764.62,
+    "discount": 35,
     "rating": 4.5,
     "reviewsCount": 28793,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/71JCB54kUeL._AC_UL300_SR300,200_.jpg",
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/71JCB54kUeL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/71JCB54kUeL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/71JCB54kUeL.jpg"
     ],
     "prime": true,
     "available": true,
@@ -1370,7 +1370,7 @@ export const PRODUCTS: Product[] = [
       "Distribution": "Fulfill by Amazon Prime",
       "Condition": "100% Genuine and New"
     },
-    "isTodayDeal": true,
+    "isTodayDeal": false,
     "amazonUrl": "https://www.amazon.in/dp/B09G33GLP8?tag=digitalsel0ef-21"
   },
   {
@@ -1379,13 +1379,13 @@ export const PRODUCTS: Product[] = [
     "category": "beauty",
     "subCategory": "Beauty Top Picks",
     "price": 499.85,
-    "originalPrice": 684.73,
-    "discount": 27,
+    "originalPrice": 657.7,
+    "discount": 24,
     "rating": 4.3,
     "reviewsCount": 7186,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/71rJ+Or2grL._AC_UL300_SR300,200_.jpg",
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/71rJ+Or2grL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/71rJ+Or2grL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/71rJ+Or2grL.jpg"
     ],
     "prime": true,
     "available": true,
@@ -1416,15 +1416,15 @@ export const PRODUCTS: Product[] = [
     "category": "beauty",
     "subCategory": "Beauty Top Picks",
     "price": 399,
-    "originalPrice": 561.97,
-    "discount": 29,
+    "originalPrice": 613.85,
+    "discount": 35,
     "rating": 4.3,
     "reviewsCount": 15636,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/71cdcEWtZZL._AC_UL300_SR300,200_.jpg",
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/71cdcEWtZZL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/71cdcEWtZZL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/71cdcEWtZZL.jpg"
     ],
-    "prime": true,
+    "prime": false,
     "available": true,
     "shortDescription": "Premium highly rated beauty bestseller, featuring robust user satisfaction, elegant packaging, and authentic Generic build.",
     "description": "This top-ranking product from Amazon's bestseller list is highly recommended in the Beauty division. Known for superior ergonomics, optimized design parameters, and outstanding reliability. Crafted using select components to ensure long-term utility for general use.",
@@ -1441,10 +1441,10 @@ export const PRODUCTS: Product[] = [
       "Category": "beauty",
       "ASIN": "B0DVSNG7NC",
       "Bestseller Rank": "#17 in Beauty",
-      "Distribution": "Fulfill by Amazon Prime",
+      "Distribution": "Standard Merchant Delivery",
       "Condition": "100% Genuine and New"
     },
-    "isTodayDeal": false,
+    "isTodayDeal": true,
     "amazonUrl": "https://www.amazon.in/dp/B0DVSNG7NC?tag=digitalsel0ef-21"
   },
   {
@@ -1453,22 +1453,22 @@ export const PRODUCTS: Product[] = [
     "category": "beauty",
     "subCategory": "Beauty Top Picks",
     "price": 207,
-    "originalPrice": 313.64,
-    "discount": 34,
+    "originalPrice": 279.73,
+    "discount": 26,
     "rating": 4.4,
-    "reviewsCount": 23259,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/511fPrnY+bL._AC_UL300_SR300,200_.jpg",
+    "reviewsCount": 23260,
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/511fPrnY+bL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/511fPrnY+bL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/511fPrnY+bL.jpg"
     ],
-    "prime": true,
+    "prime": false,
     "available": true,
     "shortDescription": "Premium highly rated beauty bestseller, featuring robust user satisfaction, elegant packaging, and authentic L'Oreal build.",
     "description": "This top-ranking product from Amazon's bestseller list is highly recommended in the Beauty division. Known for superior ergonomics, optimized design parameters, and outstanding reliability. Crafted using select components to ensure long-term utility for general use.",
     "features": [
       "Top Category Choice: Ranked in the top 10 bestsellers in Amazon.in's Beauty section.",
       "Authentic Engineering: Designed and supplied by L'Oreal for maximum consumer durability.",
-      "High User Engagement: Backed by over 23,259 reviews and a strong 4.4-star ranking.",
+      "High User Engagement: Backed by over 23,260 reviews and a strong 4.4-star ranking.",
       "Seamless Convenience: Full warranty coverage with fast delivery via Amazon Prime distribution.",
       "Superior Quality: Selected materials processed to modern standard quality controls."
     ],
@@ -1478,10 +1478,10 @@ export const PRODUCTS: Product[] = [
       "Category": "beauty",
       "ASIN": "B0B6Y3FNV7",
       "Bestseller Rank": "#19 in Beauty",
-      "Distribution": "Fulfill by Amazon Prime",
+      "Distribution": "Standard Merchant Delivery",
       "Condition": "100% Genuine and New"
     },
-    "isTodayDeal": false,
+    "isTodayDeal": true,
     "amazonUrl": "https://www.amazon.in/dp/B0B6Y3FNV7?tag=digitalsel0ef-21"
   },
   {
@@ -1490,13 +1490,13 @@ export const PRODUCTS: Product[] = [
     "category": "health",
     "subCategory": "Health & Personal Care Top Picks",
     "price": 1299,
-    "originalPrice": 1779.45,
-    "discount": 27,
+    "originalPrice": 2239.66,
+    "discount": 42,
     "rating": 4.2,
     "reviewsCount": 37817,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/61FfgEFs1iL._AC_UL300_SR300,200_.jpg",
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/61FfgEFs1iL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/61FfgEFs1iL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/61FfgEFs1iL.jpg"
     ],
     "prime": true,
     "available": true,
@@ -1518,7 +1518,7 @@ export const PRODUCTS: Product[] = [
       "Distribution": "Fulfill by Amazon Prime",
       "Condition": "100% Genuine and New"
     },
-    "isTodayDeal": false,
+    "isTodayDeal": true,
     "amazonUrl": "https://www.amazon.in/dp/B0G6DVB6DG?tag=digitalsel0ef-21"
   },
   {
@@ -1527,22 +1527,22 @@ export const PRODUCTS: Product[] = [
     "category": "health",
     "subCategory": "Health & Personal Care Top Picks",
     "price": 525,
-    "originalPrice": 603.45,
-    "discount": 13,
+    "originalPrice": 656.25,
+    "discount": 20,
     "rating": 4.3,
-    "reviewsCount": 12721,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/81vjllAMqoL._AC_UL300_SR300,200_.jpg",
+    "reviewsCount": 12720,
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/81vjllAMqoL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/81vjllAMqoL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/81vjllAMqoL.jpg"
     ],
-    "prime": true,
+    "prime": false,
     "available": true,
     "shortDescription": "Premium highly rated health & personal care bestseller, featuring robust user satisfaction, elegant packaging, and authentic Godrej build.",
     "description": "This top-ranking product from Amazon's bestseller list is highly recommended in the Health & Personal Care division. Known for superior ergonomics, optimized design parameters, and outstanding reliability. Crafted using select components to ensure long-term utility for general use.",
     "features": [
       "Top Category Choice: Ranked in the top 10 bestsellers in Amazon.in's Health & Personal Care section.",
       "Authentic Engineering: Designed and supplied by Godrej for maximum consumer durability.",
-      "High User Engagement: Backed by over 12,721 reviews and a strong 4.3-star ranking.",
+      "High User Engagement: Backed by over 12,720 reviews and a strong 4.3-star ranking.",
       "Seamless Convenience: Full warranty coverage with fast delivery via Amazon Prime distribution.",
       "Superior Quality: Selected materials processed to modern standard quality controls."
     ],
@@ -1552,10 +1552,10 @@ export const PRODUCTS: Product[] = [
       "Category": "health",
       "ASIN": "B0GPRPQF23",
       "Bestseller Rank": "#3 in Health & Personal Care",
-      "Distribution": "Fulfill by Amazon Prime",
+      "Distribution": "Standard Merchant Delivery",
       "Condition": "100% Genuine and New"
     },
-    "isTodayDeal": false,
+    "isTodayDeal": true,
     "amazonUrl": "https://www.amazon.in/dp/B0GPRPQF23?tag=digitalsel0ef-21"
   },
   {
@@ -1564,13 +1564,13 @@ export const PRODUCTS: Product[] = [
     "category": "health",
     "subCategory": "Health & Personal Care Top Picks",
     "price": 151,
-    "originalPrice": 188.75,
-    "discount": 20,
+    "originalPrice": 186.42,
+    "discount": 19,
     "rating": 4.5,
     "reviewsCount": 58107,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/61cT-uFfHOL._AC_UL300_SR300,200_.jpg",
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/61cT-uFfHOL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/61cT-uFfHOL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/61cT-uFfHOL.jpg"
     ],
     "prime": false,
     "available": true,
@@ -1592,7 +1592,7 @@ export const PRODUCTS: Product[] = [
       "Distribution": "Standard Merchant Delivery",
       "Condition": "100% Genuine and New"
     },
-    "isTodayDeal": true,
+    "isTodayDeal": false,
     "amazonUrl": "https://www.amazon.in/dp/B07M9XYH9K?tag=digitalsel0ef-21"
   },
   {
@@ -1601,22 +1601,22 @@ export const PRODUCTS: Product[] = [
     "category": "health",
     "subCategory": "Health & Personal Care Top Picks",
     "price": 449,
-    "originalPrice": 561.25,
-    "discount": 20,
+    "originalPrice": 660.29,
+    "discount": 32,
     "rating": 4.5,
-    "reviewsCount": 74080,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/81hjfHDwDXL._AC_UL300_SR300,200_.jpg",
+    "reviewsCount": 74079,
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/81hjfHDwDXL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/81hjfHDwDXL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/81hjfHDwDXL.jpg"
     ],
-    "prime": true,
+    "prime": false,
     "available": true,
     "shortDescription": "Premium highly rated health & personal care bestseller, featuring robust user satisfaction, elegant packaging, and authentic Comfort build.",
     "description": "This top-ranking product from Amazon's bestseller list is highly recommended in the Health & Personal Care division. Known for superior ergonomics, optimized design parameters, and outstanding reliability. Crafted using select components to ensure long-term utility for general use.",
     "features": [
       "Top Category Choice: Ranked in the top 10 bestsellers in Amazon.in's Health & Personal Care section.",
       "Authentic Engineering: Designed and supplied by Comfort for maximum consumer durability.",
-      "High User Engagement: Backed by over 74,080 reviews and a strong 4.5-star ranking.",
+      "High User Engagement: Backed by over 74,079 reviews and a strong 4.5-star ranking.",
       "Seamless Convenience: Full warranty coverage with fast delivery via Amazon Prime distribution.",
       "Superior Quality: Selected materials processed to modern standard quality controls."
     ],
@@ -1626,7 +1626,7 @@ export const PRODUCTS: Product[] = [
       "Category": "health",
       "ASIN": "B07F8H9NYY",
       "Bestseller Rank": "#7 in Health & Personal Care",
-      "Distribution": "Fulfill by Amazon Prime",
+      "Distribution": "Standard Merchant Delivery",
       "Condition": "100% Genuine and New"
     },
     "isTodayDeal": true,
@@ -1638,13 +1638,13 @@ export const PRODUCTS: Product[] = [
     "category": "health",
     "subCategory": "Health & Personal Care Top Picks",
     "price": 479,
-    "originalPrice": 825.86,
-    "discount": 42,
+    "originalPrice": 622.08,
+    "discount": 23,
     "rating": 3.9,
     "reviewsCount": 14879,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/61hx-ExBRhL._AC_UL300_SR300,200_.jpg",
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/61hx-ExBRhL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/61hx-ExBRhL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/61hx-ExBRhL.jpg"
     ],
     "prime": false,
     "available": true,
@@ -1666,7 +1666,7 @@ export const PRODUCTS: Product[] = [
       "Distribution": "Standard Merchant Delivery",
       "Condition": "100% Genuine and New"
     },
-    "isTodayDeal": false,
+    "isTodayDeal": true,
     "amazonUrl": "https://www.amazon.in/dp/B0CV7J49TQ?tag=digitalsel0ef-21"
   },
   {
@@ -1675,15 +1675,15 @@ export const PRODUCTS: Product[] = [
     "category": "health",
     "subCategory": "Health & Personal Care Top Picks",
     "price": 777,
-    "originalPrice": 1036,
-    "discount": 25,
+    "originalPrice": 863.33,
+    "discount": 10,
     "rating": 4.4,
     "reviewsCount": 11510,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/61akecKSiLL._AC_UL300_SR300,200_.jpg",
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/61akecKSiLL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/61akecKSiLL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/61akecKSiLL.jpg"
     ],
-    "prime": false,
+    "prime": true,
     "available": true,
     "shortDescription": "Premium highly rated health & personal care bestseller, featuring robust user satisfaction, elegant packaging, and authentic Surf build.",
     "description": "This top-ranking product from Amazon's bestseller list is highly recommended in the Health & Personal Care division. Known for superior ergonomics, optimized design parameters, and outstanding reliability. Crafted using select components to ensure long-term utility for general use.",
@@ -1700,7 +1700,7 @@ export const PRODUCTS: Product[] = [
       "Category": "health",
       "ASIN": "B0D7GQNL6B",
       "Bestseller Rank": "#11 in Health & Personal Care",
-      "Distribution": "Standard Merchant Delivery",
+      "Distribution": "Fulfill by Amazon Prime",
       "Condition": "100% Genuine and New"
     },
     "isTodayDeal": true,
@@ -1712,13 +1712,13 @@ export const PRODUCTS: Product[] = [
     "category": "health",
     "subCategory": "Health & Personal Care Top Picks",
     "price": 815,
-    "originalPrice": 970.24,
-    "discount": 16,
+    "originalPrice": 1358.33,
+    "discount": 40,
     "rating": 4.5,
     "reviewsCount": 4879,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/616R3X-B5cL._AC_UL300_SR300,200_.jpg",
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/616R3X-B5cL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/616R3X-B5cL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/616R3X-B5cL.jpg"
     ],
     "prime": false,
     "available": true,
@@ -1740,7 +1740,7 @@ export const PRODUCTS: Product[] = [
       "Distribution": "Standard Merchant Delivery",
       "Condition": "100% Genuine and New"
     },
-    "isTodayDeal": false,
+    "isTodayDeal": true,
     "amazonUrl": "https://www.amazon.in/dp/B0DPX9FBC8?tag=digitalsel0ef-21"
   },
   {
@@ -1749,15 +1749,15 @@ export const PRODUCTS: Product[] = [
     "category": "health",
     "subCategory": "Health & Personal Care Top Picks",
     "price": 249,
-    "originalPrice": 452.73,
-    "discount": 45,
+    "originalPrice": 389.06,
+    "discount": 36,
     "rating": 4,
     "reviewsCount": 6893,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/51EWvDPx0pL._AC_UL300_SR300,200_.jpg",
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/51EWvDPx0pL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/51EWvDPx0pL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/51EWvDPx0pL.jpg"
     ],
-    "prime": false,
+    "prime": true,
     "available": true,
     "shortDescription": "Premium highly rated health & personal care bestseller, featuring robust user satisfaction, elegant packaging, and authentic Amazon build.",
     "description": "This top-ranking product from Amazon's bestseller list is highly recommended in the Health & Personal Care division. Known for superior ergonomics, optimized design parameters, and outstanding reliability. Crafted using select components to ensure long-term utility for general use.",
@@ -1774,10 +1774,10 @@ export const PRODUCTS: Product[] = [
       "Category": "health",
       "ASIN": "B0CV79F1TM",
       "Bestseller Rank": "#15 in Health & Personal Care",
-      "Distribution": "Standard Merchant Delivery",
+      "Distribution": "Fulfill by Amazon Prime",
       "Condition": "100% Genuine and New"
     },
-    "isTodayDeal": false,
+    "isTodayDeal": true,
     "amazonUrl": "https://www.amazon.in/dp/B0CV79F1TM?tag=digitalsel0ef-21"
   },
   {
@@ -1786,15 +1786,15 @@ export const PRODUCTS: Product[] = [
     "category": "health",
     "subCategory": "Health & Personal Care Top Picks",
     "price": 289,
-    "originalPrice": 395.89,
-    "discount": 27,
+    "originalPrice": 473.77,
+    "discount": 39,
     "rating": 4.4,
     "reviewsCount": 27281,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/810kJ62hQQL._AC_UL300_SR300,200_.jpg",
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/810kJ62hQQL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/810kJ62hQQL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/810kJ62hQQL.jpg"
     ],
-    "prime": true,
+    "prime": false,
     "available": true,
     "shortDescription": "Premium highly rated health & personal care bestseller, featuring robust user satisfaction, elegant packaging, and authentic Amazon build.",
     "description": "This top-ranking product from Amazon's bestseller list is highly recommended in the Health & Personal Care division. Known for superior ergonomics, optimized design parameters, and outstanding reliability. Crafted using select components to ensure long-term utility for general use.",
@@ -1811,10 +1811,10 @@ export const PRODUCTS: Product[] = [
       "Category": "health",
       "ASIN": "B07GVVCQY6",
       "Bestseller Rank": "#17 in Health & Personal Care",
-      "Distribution": "Fulfill by Amazon Prime",
+      "Distribution": "Standard Merchant Delivery",
       "Condition": "100% Genuine and New"
     },
-    "isTodayDeal": false,
+    "isTodayDeal": true,
     "amazonUrl": "https://www.amazon.in/dp/B07GVVCQY6?tag=digitalsel0ef-21"
   },
   {
@@ -1823,13 +1823,13 @@ export const PRODUCTS: Product[] = [
     "category": "health",
     "subCategory": "Health & Personal Care Top Picks",
     "price": 225,
-    "originalPrice": 326.09,
-    "discount": 31,
+    "originalPrice": 368.85,
+    "discount": 39,
     "rating": 4.1,
     "reviewsCount": 2606,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/51lHq5GlfQL._AC_UL300_SR300,200_.jpg",
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/51lHq5GlfQL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/51lHq5GlfQL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/51lHq5GlfQL.jpg"
     ],
     "prime": false,
     "available": true,
@@ -1851,7 +1851,7 @@ export const PRODUCTS: Product[] = [
       "Distribution": "Standard Merchant Delivery",
       "Condition": "100% Genuine and New"
     },
-    "isTodayDeal": true,
+    "isTodayDeal": false,
     "amazonUrl": "https://www.amazon.in/dp/B0FS1HWH3N?tag=digitalsel0ef-21"
   },
   {
@@ -1860,13 +1860,13 @@ export const PRODUCTS: Product[] = [
     "category": "sports-fitness",
     "subCategory": "Sports & Fitness Top Picks",
     "price": 549,
-    "originalPrice": 831.82,
-    "discount": 34,
+    "originalPrice": 645.88,
+    "discount": 15,
     "rating": 4,
     "reviewsCount": 5081,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/71+J9cM+N-L._AC_UL300_SR300,200_.jpg",
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/71+J9cM+N-L.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/71+J9cM+N-L._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/71+J9cM+N-L.jpg"
     ],
     "prime": true,
     "available": true,
@@ -1897,13 +1897,13 @@ export const PRODUCTS: Product[] = [
     "category": "sports-fitness",
     "subCategory": "Sports & Fitness Top Picks",
     "price": 509,
-    "originalPrice": 834.43,
-    "discount": 39,
+    "originalPrice": 737.68,
+    "discount": 31,
     "rating": 4.1,
     "reviewsCount": 27062,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/710SxepIfiL._AC_UL300_SR300,200_.jpg",
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/710SxepIfiL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/710SxepIfiL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/710SxepIfiL.jpg"
     ],
     "prime": true,
     "available": true,
@@ -1934,13 +1934,13 @@ export const PRODUCTS: Product[] = [
     "category": "sports-fitness",
     "subCategory": "Sports & Fitness Top Picks",
     "price": 1399,
-    "originalPrice": 2256.45,
-    "discount": 38,
+    "originalPrice": 1626.74,
+    "discount": 14,
     "rating": 4.3,
     "reviewsCount": 1238,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/81An-qPd0UL._AC_UL300_SR300,200_.jpg",
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/81An-qPd0UL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/81An-qPd0UL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/81An-qPd0UL.jpg"
     ],
     "prime": true,
     "available": true,
@@ -1971,13 +1971,13 @@ export const PRODUCTS: Product[] = [
     "category": "sports-fitness",
     "subCategory": "Sports & Fitness Top Picks",
     "price": 9499,
-    "originalPrice": 11308.33,
-    "discount": 16,
+    "originalPrice": 14613.85,
+    "discount": 35,
     "rating": 4.3,
     "reviewsCount": 7432,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/61OuLE7-+cL._AC_UL300_SR300,200_.jpg",
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/61OuLE7-+cL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/61OuLE7-+cL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/61OuLE7-+cL.jpg"
     ],
     "prime": true,
     "available": true,
@@ -1999,7 +1999,7 @@ export const PRODUCTS: Product[] = [
       "Distribution": "Fulfill by Amazon Prime",
       "Condition": "100% Genuine and New"
     },
-    "isTodayDeal": true,
+    "isTodayDeal": false,
     "amazonUrl": "https://www.amazon.in/dp/B0FD817WFP?tag=digitalsel0ef-21"
   },
   {
@@ -2008,15 +2008,15 @@ export const PRODUCTS: Product[] = [
     "category": "sports-fitness",
     "subCategory": "Sports & Fitness Top Picks",
     "price": 599,
-    "originalPrice": 798.67,
-    "discount": 25,
+    "originalPrice": 739.51,
+    "discount": 19,
     "rating": 4,
     "reviewsCount": 2172,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/71x6RNVlfjL._AC_UL300_SR300,200_.jpg",
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/71x6RNVlfjL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/71x6RNVlfjL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/71x6RNVlfjL.jpg"
     ],
-    "prime": false,
+    "prime": true,
     "available": true,
     "shortDescription": "Premium highly rated sports & fitness bestseller, featuring robust user satisfaction, elegant packaging, and authentic Boldfit build.",
     "description": "This top-ranking product from Amazon's bestseller list is highly recommended in the Sports & Fitness division. Known for superior ergonomics, optimized design parameters, and outstanding reliability. Crafted using select components to ensure long-term utility for general use.",
@@ -2033,7 +2033,7 @@ export const PRODUCTS: Product[] = [
       "Category": "sports-fitness",
       "ASIN": "B0DCJYS6KG",
       "Bestseller Rank": "#9 in Sports & Fitness",
-      "Distribution": "Standard Merchant Delivery",
+      "Distribution": "Fulfill by Amazon Prime",
       "Condition": "100% Genuine and New"
     },
     "isTodayDeal": false,
@@ -2045,15 +2045,15 @@ export const PRODUCTS: Product[] = [
     "category": "sports-fitness",
     "subCategory": "Sports & Fitness Top Picks",
     "price": 349,
-    "originalPrice": 447.44,
-    "discount": 22,
+    "originalPrice": 392.13,
+    "discount": 11,
     "rating": 4,
     "reviewsCount": 11785,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/612K2lgbyIL._AC_UL300_SR300,200_.jpg",
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/612K2lgbyIL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/612K2lgbyIL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/612K2lgbyIL.jpg"
     ],
-    "prime": false,
+    "prime": true,
     "available": true,
     "shortDescription": "Premium highly rated sports & fitness bestseller, featuring robust user satisfaction, elegant packaging, and authentic Lifelong build.",
     "description": "This top-ranking product from Amazon's bestseller list is highly recommended in the Sports & Fitness division. Known for superior ergonomics, optimized design parameters, and outstanding reliability. Crafted using select components to ensure long-term utility for general use.",
@@ -2070,10 +2070,10 @@ export const PRODUCTS: Product[] = [
       "Category": "sports-fitness",
       "ASIN": "B09YJ475JC",
       "Bestseller Rank": "#11 in Sports & Fitness",
-      "Distribution": "Standard Merchant Delivery",
+      "Distribution": "Fulfill by Amazon Prime",
       "Condition": "100% Genuine and New"
     },
-    "isTodayDeal": false,
+    "isTodayDeal": true,
     "amazonUrl": "https://www.amazon.in/dp/B09YJ475JC?tag=digitalsel0ef-21"
   },
   {
@@ -2082,13 +2082,13 @@ export const PRODUCTS: Product[] = [
     "category": "sports-fitness",
     "subCategory": "Sports & Fitness Top Picks",
     "price": 170,
-    "originalPrice": 265.63,
-    "discount": 36,
+    "originalPrice": 298.25,
+    "discount": 43,
     "rating": 4.1,
     "reviewsCount": 6157,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/61JlKYdhFdL._AC_UL300_SR300,200_.jpg",
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/61JlKYdhFdL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/61JlKYdhFdL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/61JlKYdhFdL.jpg"
     ],
     "prime": true,
     "available": true,
@@ -2119,15 +2119,15 @@ export const PRODUCTS: Product[] = [
     "category": "sports-fitness",
     "subCategory": "Sports & Fitness Top Picks",
     "price": 170,
-    "originalPrice": 217.95,
-    "discount": 22,
+    "originalPrice": 207.32,
+    "discount": 18,
     "rating": 4.1,
     "reviewsCount": 37519,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/612AmJbiG1L._AC_UL300_SR300,200_.jpg",
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/612AmJbiG1L.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/612AmJbiG1L._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/612AmJbiG1L.jpg"
     ],
-    "prime": true,
+    "prime": false,
     "available": true,
     "shortDescription": "Premium highly rated sports & fitness bestseller, featuring robust user satisfaction, elegant packaging, and authentic Boldfit build.",
     "description": "This top-ranking product from Amazon's bestseller list is highly recommended in the Sports & Fitness division. Known for superior ergonomics, optimized design parameters, and outstanding reliability. Crafted using select components to ensure long-term utility for general use.",
@@ -2144,7 +2144,7 @@ export const PRODUCTS: Product[] = [
       "Category": "sports-fitness",
       "ASIN": "B0B77X44MX",
       "Bestseller Rank": "#15 in Sports & Fitness",
-      "Distribution": "Fulfill by Amazon Prime",
+      "Distribution": "Standard Merchant Delivery",
       "Condition": "100% Genuine and New"
     },
     "isTodayDeal": true,
@@ -2156,15 +2156,15 @@ export const PRODUCTS: Product[] = [
     "category": "sports-fitness",
     "subCategory": "Sports & Fitness Top Picks",
     "price": 599,
-    "originalPrice": 777.92,
-    "discount": 23,
+    "originalPrice": 680.68,
+    "discount": 12,
     "rating": 4.2,
     "reviewsCount": 2629,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/61+J--H8kHL._AC_UL300_SR300,200_.jpg",
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/61+J--H8kHL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/61+J--H8kHL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/61+J--H8kHL.jpg"
     ],
-    "prime": true,
+    "prime": false,
     "available": true,
     "shortDescription": "Premium highly rated sports & fitness bestseller, featuring robust user satisfaction, elegant packaging, and authentic Lifelong build.",
     "description": "This top-ranking product from Amazon's bestseller list is highly recommended in the Sports & Fitness division. Known for superior ergonomics, optimized design parameters, and outstanding reliability. Crafted using select components to ensure long-term utility for general use.",
@@ -2181,10 +2181,10 @@ export const PRODUCTS: Product[] = [
       "Category": "sports-fitness",
       "ASIN": "B0D9VVQD2S",
       "Bestseller Rank": "#17 in Sports & Fitness",
-      "Distribution": "Fulfill by Amazon Prime",
+      "Distribution": "Standard Merchant Delivery",
       "Condition": "100% Genuine and New"
     },
-    "isTodayDeal": true,
+    "isTodayDeal": false,
     "amazonUrl": "https://www.amazon.in/dp/B0D9VVQD2S?tag=digitalsel0ef-21"
   },
   {
@@ -2193,22 +2193,22 @@ export const PRODUCTS: Product[] = [
     "category": "sports-fitness",
     "subCategory": "Sports & Fitness Top Picks",
     "price": 28990,
-    "originalPrice": 35790.12,
-    "discount": 19,
+    "originalPrice": 32573.03,
+    "discount": 11,
     "rating": 4.3,
-    "reviewsCount": 3604,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/61Fe+1-71-L._AC_UL300_SR300,200_.jpg",
+    "reviewsCount": 3608,
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/61Fe+1-71-L.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/61Fe+1-71-L._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/61Fe+1-71-L.jpg"
     ],
-    "prime": true,
+    "prime": false,
     "available": true,
     "shortDescription": "Premium highly rated sports & fitness bestseller, featuring robust user satisfaction, elegant packaging, and authentic WHOOP build.",
     "description": "This top-ranking product from Amazon's bestseller list is highly recommended in the Sports & Fitness division. Known for superior ergonomics, optimized design parameters, and outstanding reliability. Crafted using select components to ensure long-term utility for general use.",
     "features": [
       "Top Category Choice: Ranked in the top 10 bestsellers in Amazon.in's Sports & Fitness section.",
       "Authentic Engineering: Designed and supplied by WHOOP for maximum consumer durability.",
-      "High User Engagement: Backed by over 3,604 reviews and a strong 4.3-star ranking.",
+      "High User Engagement: Backed by over 3,608 reviews and a strong 4.3-star ranking.",
       "Seamless Convenience: Full warranty coverage with fast delivery via Amazon Prime distribution.",
       "Superior Quality: Selected materials processed to modern standard quality controls."
     ],
@@ -2218,10 +2218,10 @@ export const PRODUCTS: Product[] = [
       "Category": "sports-fitness",
       "ASIN": "B0DY2SWV16",
       "Bestseller Rank": "#19 in Sports & Fitness",
-      "Distribution": "Fulfill by Amazon Prime",
+      "Distribution": "Standard Merchant Delivery",
       "Condition": "100% Genuine and New"
     },
-    "isTodayDeal": true,
+    "isTodayDeal": false,
     "amazonUrl": "https://www.amazon.in/dp/B0DY2SWV16?tag=digitalsel0ef-21"
   },
   {
@@ -2230,22 +2230,22 @@ export const PRODUCTS: Product[] = [
     "category": "gaming",
     "subCategory": "Video Games Top Picks",
     "price": 5899,
-    "originalPrice": 10170.69,
-    "discount": 42,
+    "originalPrice": 9670.49,
+    "discount": 39,
     "rating": 4.3,
-    "reviewsCount": 19518,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/61cOKvrU7NL._AC_UL300_SR300,200_.jpg",
+    "reviewsCount": 3098,
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/61cOKvrU7NL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/61cOKvrU7NL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/61cOKvrU7NL.jpg"
     ],
-    "prime": true,
+    "prime": false,
     "available": true,
     "shortDescription": "Premium highly rated video games bestseller, featuring robust user satisfaction, elegant packaging, and authentic Sony build.",
     "description": "This top-ranking product from Amazon's bestseller list is highly recommended in the Video Games division. Known for superior ergonomics, optimized design parameters, and outstanding reliability. Crafted using select components to ensure long-term utility for general use.",
     "features": [
       "Top Category Choice: Ranked in the top 10 bestsellers in Amazon.in's Video Games section.",
       "Authentic Engineering: Designed and supplied by Sony for maximum consumer durability.",
-      "High User Engagement: Backed by over 19,518 reviews and a strong 4.3-star ranking.",
+      "High User Engagement: Backed by over 3,098 reviews and a strong 4.3-star ranking.",
       "Seamless Convenience: Full warranty coverage with fast delivery via Amazon Prime distribution.",
       "Superior Quality: Selected materials processed to modern standard quality controls."
     ],
@@ -2255,10 +2255,10 @@ export const PRODUCTS: Product[] = [
       "Category": "gaming",
       "ASIN": "B09842ZHNM",
       "Bestseller Rank": "#1 in Video Games",
-      "Distribution": "Fulfill by Amazon Prime",
+      "Distribution": "Standard Merchant Delivery",
       "Condition": "100% Genuine and New"
     },
-    "isTodayDeal": false,
+    "isTodayDeal": true,
     "amazonUrl": "https://www.amazon.in/dp/B09842ZHNM?tag=digitalsel0ef-21"
   },
   {
@@ -2267,13 +2267,13 @@ export const PRODUCTS: Product[] = [
     "category": "gaming",
     "subCategory": "Video Games Top Picks",
     "price": 189,
-    "originalPrice": 309.84,
-    "discount": 39,
+    "originalPrice": 219.77,
+    "discount": 14,
     "rating": 4.4,
     "reviewsCount": 486,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/81iVnCQA8-L._AC_UL300_SR300,200_.jpg",
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/81iVnCQA8-L.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/81iVnCQA8-L._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/81iVnCQA8-L.jpg"
     ],
     "prime": false,
     "available": true,
@@ -2304,13 +2304,13 @@ export const PRODUCTS: Product[] = [
     "category": "gaming",
     "subCategory": "Video Games Top Picks",
     "price": 5999,
-    "originalPrice": 9089.39,
-    "discount": 34,
+    "originalPrice": 10524.56,
+    "discount": 43,
     "rating": 4.2,
-    "reviewsCount": 18623,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/71gWKpjJrfL._AC_UL300_SR300,200_.jpg",
+    "reviewsCount": 23208,
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/71gWKpjJrfL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/71gWKpjJrfL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/71gWKpjJrfL.jpg"
     ],
     "prime": true,
     "available": true,
@@ -2319,7 +2319,7 @@ export const PRODUCTS: Product[] = [
     "features": [
       "Top Category Choice: Ranked in the top 10 bestsellers in Amazon.in's Video Games section.",
       "Authentic Engineering: Designed and supplied by Grand for maximum consumer durability.",
-      "High User Engagement: Backed by over 18,623 reviews and a strong 4.2-star ranking.",
+      "High User Engagement: Backed by over 23,208 reviews and a strong 4.2-star ranking.",
       "Seamless Convenience: Full warranty coverage with fast delivery via Amazon Prime distribution.",
       "Superior Quality: Selected materials processed to modern standard quality controls."
     ],
@@ -2332,7 +2332,7 @@ export const PRODUCTS: Product[] = [
       "Distribution": "Fulfill by Amazon Prime",
       "Condition": "100% Genuine and New"
     },
-    "isTodayDeal": true,
+    "isTodayDeal": false,
     "amazonUrl": "https://www.amazon.in/dp/B0H6X8VNQC?tag=digitalsel0ef-21"
   },
   {
@@ -2341,13 +2341,13 @@ export const PRODUCTS: Product[] = [
     "category": "gaming",
     "subCategory": "Video Games Top Picks",
     "price": 1849,
-    "originalPrice": 2254.88,
-    "discount": 18,
+    "originalPrice": 2679.71,
+    "discount": 31,
     "rating": 4.3,
-    "reviewsCount": 8428,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/81jrnsmHlPL._AC_UL300_SR300,200_.jpg",
+    "reviewsCount": 14643,
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/81jrnsmHlPL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/81jrnsmHlPL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/81jrnsmHlPL.jpg"
     ],
     "prime": true,
     "available": true,
@@ -2356,7 +2356,7 @@ export const PRODUCTS: Product[] = [
     "features": [
       "Top Category Choice: Ranked in the top 10 bestsellers in Amazon.in's Video Games section.",
       "Authentic Engineering: Designed and supplied by Ant for maximum consumer durability.",
-      "High User Engagement: Backed by over 8,428 reviews and a strong 4.3-star ranking.",
+      "High User Engagement: Backed by over 14,643 reviews and a strong 4.3-star ranking.",
       "Seamless Convenience: Full warranty coverage with fast delivery via Amazon Prime distribution.",
       "Superior Quality: Selected materials processed to modern standard quality controls."
     ],
@@ -2369,7 +2369,7 @@ export const PRODUCTS: Product[] = [
       "Distribution": "Fulfill by Amazon Prime",
       "Condition": "100% Genuine and New"
     },
-    "isTodayDeal": true,
+    "isTodayDeal": false,
     "amazonUrl": "https://www.amazon.in/dp/B0BRZZCRPW?tag=digitalsel0ef-21"
   },
   {
@@ -2378,13 +2378,13 @@ export const PRODUCTS: Product[] = [
     "category": "gaming",
     "subCategory": "Video Games Top Picks",
     "price": 5899,
-    "originalPrice": 9363.49,
-    "discount": 37,
+    "originalPrice": 7022.62,
+    "discount": 16,
     "rating": 4.5,
-    "reviewsCount": 5101,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/61afp1oz7eL._AC_UL300_SR300,200_.jpg",
+    "reviewsCount": 13666,
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/61afp1oz7eL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/61afp1oz7eL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/61afp1oz7eL.jpg"
     ],
     "prime": true,
     "available": true,
@@ -2393,7 +2393,7 @@ export const PRODUCTS: Product[] = [
     "features": [
       "Top Category Choice: Ranked in the top 10 bestsellers in Amazon.in's Video Games section.",
       "Authentic Engineering: Designed and supplied by Sony for maximum consumer durability.",
-      "High User Engagement: Backed by over 5,101 reviews and a strong 4.5-star ranking.",
+      "High User Engagement: Backed by over 13,666 reviews and a strong 4.5-star ranking.",
       "Seamless Convenience: Full warranty coverage with fast delivery via Amazon Prime distribution.",
       "Superior Quality: Selected materials processed to modern standard quality controls."
     ],
@@ -2406,7 +2406,7 @@ export const PRODUCTS: Product[] = [
       "Distribution": "Fulfill by Amazon Prime",
       "Condition": "100% Genuine and New"
     },
-    "isTodayDeal": true,
+    "isTodayDeal": false,
     "amazonUrl": "https://www.amazon.in/dp/B098439Y2G?tag=digitalsel0ef-21"
   },
   {
@@ -2415,22 +2415,22 @@ export const PRODUCTS: Product[] = [
     "category": "gaming",
     "subCategory": "Video Games Top Picks",
     "price": 1849,
-    "originalPrice": 2934.92,
-    "discount": 37,
+    "originalPrice": 2054.44,
+    "discount": 10,
     "rating": 4.2,
-    "reviewsCount": 14411,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/71cRw5nSFmL._AC_UL300_SR300,200_.jpg",
+    "reviewsCount": 4100,
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/71cRw5nSFmL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/71cRw5nSFmL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/71cRw5nSFmL.jpg"
     ],
-    "prime": true,
+    "prime": false,
     "available": true,
     "shortDescription": "Premium highly rated video games bestseller, featuring robust user satisfaction, elegant packaging, and authentic EvoFox build.",
     "description": "This top-ranking product from Amazon's bestseller list is highly recommended in the Video Games division. Known for superior ergonomics, optimized design parameters, and outstanding reliability. Crafted using select components to ensure long-term utility for general use.",
     "features": [
       "Top Category Choice: Ranked in the top 10 bestsellers in Amazon.in's Video Games section.",
       "Authentic Engineering: Designed and supplied by EvoFox for maximum consumer durability.",
-      "High User Engagement: Backed by over 14,411 reviews and a strong 4.2-star ranking.",
+      "High User Engagement: Backed by over 4,100 reviews and a strong 4.2-star ranking.",
       "Seamless Convenience: Full warranty coverage with fast delivery via Amazon Prime distribution.",
       "Superior Quality: Selected materials processed to modern standard quality controls."
     ],
@@ -2440,7 +2440,7 @@ export const PRODUCTS: Product[] = [
       "Category": "gaming",
       "ASIN": "B0GJ6N8ZW3",
       "Bestseller Rank": "#11 in Video Games",
-      "Distribution": "Fulfill by Amazon Prime",
+      "Distribution": "Standard Merchant Delivery",
       "Condition": "100% Genuine and New"
     },
     "isTodayDeal": true,
@@ -2451,14 +2451,14 @@ export const PRODUCTS: Product[] = [
     "name": "Sony PlayStation®5 Digital Edition (slim) Console Video Game",
     "category": "gaming",
     "subCategory": "Video Games Top Picks",
-    "price": 8340,
-    "originalPrice": 14892.86,
-    "discount": 44,
+    "price": 1915,
+    "originalPrice": 2151.69,
+    "discount": 11,
     "rating": 4.6,
-    "reviewsCount": 1119,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/51afJC92cgL._AC_UL300_SR300,200_.jpg",
+    "reviewsCount": 3072,
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/51afJC92cgL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/51afJC92cgL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/51afJC92cgL.jpg"
     ],
     "prime": true,
     "available": true,
@@ -2467,7 +2467,7 @@ export const PRODUCTS: Product[] = [
     "features": [
       "Top Category Choice: Ranked in the top 10 bestsellers in Amazon.in's Video Games section.",
       "Authentic Engineering: Designed and supplied by Sony for maximum consumer durability.",
-      "High User Engagement: Backed by over 1,119 reviews and a strong 4.6-star ranking.",
+      "High User Engagement: Backed by over 3,072 reviews and a strong 4.6-star ranking.",
       "Seamless Convenience: Full warranty coverage with fast delivery via Amazon Prime distribution.",
       "Superior Quality: Selected materials processed to modern standard quality controls."
     ],
@@ -2488,23 +2488,23 @@ export const PRODUCTS: Product[] = [
     "name": "Sony PlayStation5 Gaming Console (Slim)",
     "category": "gaming",
     "subCategory": "Video Games Top Picks",
-    "price": 3361,
-    "originalPrice": 3819.32,
-    "discount": 12,
+    "price": 3087,
+    "originalPrice": 5612.73,
+    "discount": 45,
     "rating": 4.6,
-    "reviewsCount": 6381,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/51ljnEaW0pL._AC_UL300_SR300,200_.jpg",
+    "reviewsCount": 20916,
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/51ljnEaW0pL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/51ljnEaW0pL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/51ljnEaW0pL.jpg"
     ],
-    "prime": true,
+    "prime": false,
     "available": true,
     "shortDescription": "Premium highly rated video games bestseller, featuring robust user satisfaction, elegant packaging, and authentic Sony build.",
     "description": "This top-ranking product from Amazon's bestseller list is highly recommended in the Video Games division. Known for superior ergonomics, optimized design parameters, and outstanding reliability. Crafted using select components to ensure long-term utility for general use.",
     "features": [
       "Top Category Choice: Ranked in the top 10 bestsellers in Amazon.in's Video Games section.",
       "Authentic Engineering: Designed and supplied by Sony for maximum consumer durability.",
-      "High User Engagement: Backed by over 6,381 reviews and a strong 4.6-star ranking.",
+      "High User Engagement: Backed by over 20,916 reviews and a strong 4.6-star ranking.",
       "Seamless Convenience: Full warranty coverage with fast delivery via Amazon Prime distribution.",
       "Superior Quality: Selected materials processed to modern standard quality controls."
     ],
@@ -2514,7 +2514,7 @@ export const PRODUCTS: Product[] = [
       "Category": "gaming",
       "ASIN": "B0CY5HVDS2",
       "Bestseller Rank": "#15 in Video Games",
-      "Distribution": "Fulfill by Amazon Prime",
+      "Distribution": "Standard Merchant Delivery",
       "Condition": "100% Genuine and New"
     },
     "isTodayDeal": true,
@@ -2526,22 +2526,22 @@ export const PRODUCTS: Product[] = [
     "category": "gaming",
     "subCategory": "Video Games Top Picks",
     "price": 2750,
-    "originalPrice": 4166.67,
-    "discount": 34,
+    "originalPrice": 4230.77,
+    "discount": 35,
     "rating": 4.5,
-    "reviewsCount": 18646,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/613lyxBIXoL._AC_UL300_SR300,200_.jpg",
+    "reviewsCount": 12036,
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/613lyxBIXoL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/613lyxBIXoL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/613lyxBIXoL.jpg"
     ],
-    "prime": true,
+    "prime": false,
     "available": true,
     "shortDescription": "Premium highly rated video games bestseller, featuring robust user satisfaction, elegant packaging, and authentic PlayStation build.",
     "description": "This top-ranking product from Amazon's bestseller list is highly recommended in the Video Games division. Known for superior ergonomics, optimized design parameters, and outstanding reliability. Crafted using select components to ensure long-term utility for general use.",
     "features": [
       "Top Category Choice: Ranked in the top 10 bestsellers in Amazon.in's Video Games section.",
       "Authentic Engineering: Designed and supplied by PlayStation for maximum consumer durability.",
-      "High User Engagement: Backed by over 18,646 reviews and a strong 4.5-star ranking.",
+      "High User Engagement: Backed by over 12,036 reviews and a strong 4.5-star ranking.",
       "Seamless Convenience: Full warranty coverage with fast delivery via Amazon Prime distribution.",
       "Superior Quality: Selected materials processed to modern standard quality controls."
     ],
@@ -2551,7 +2551,7 @@ export const PRODUCTS: Product[] = [
       "Category": "gaming",
       "ASIN": "B0B6FGSKCQ",
       "Bestseller Rank": "#17 in Video Games",
-      "Distribution": "Fulfill by Amazon Prime",
+      "Distribution": "Standard Merchant Delivery",
       "Condition": "100% Genuine and New"
     },
     "isTodayDeal": true,
@@ -2563,22 +2563,22 @@ export const PRODUCTS: Product[] = [
     "category": "gaming",
     "subCategory": "Video Games Top Picks",
     "price": 225,
-    "originalPrice": 321.43,
-    "discount": 30,
+    "originalPrice": 296.05,
+    "discount": 24,
     "rating": 4.3,
-    "reviewsCount": 3139,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/91JkAsS35JL._AC_UL300_SR300,200_.jpg",
+    "reviewsCount": 17601,
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/91JkAsS35JL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/91JkAsS35JL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/91JkAsS35JL.jpg"
     ],
-    "prime": true,
+    "prime": false,
     "available": true,
     "shortDescription": "Premium highly rated video games bestseller, featuring robust user satisfaction, elegant packaging, and authentic Cranique build.",
     "description": "This top-ranking product from Amazon's bestseller list is highly recommended in the Video Games division. Known for superior ergonomics, optimized design parameters, and outstanding reliability. Crafted using select components to ensure long-term utility for general use.",
     "features": [
       "Top Category Choice: Ranked in the top 10 bestsellers in Amazon.in's Video Games section.",
       "Authentic Engineering: Designed and supplied by Cranique for maximum consumer durability.",
-      "High User Engagement: Backed by over 3,139 reviews and a strong 4.3-star ranking.",
+      "High User Engagement: Backed by over 17,601 reviews and a strong 4.3-star ranking.",
       "Seamless Convenience: Full warranty coverage with fast delivery via Amazon Prime distribution.",
       "Superior Quality: Selected materials processed to modern standard quality controls."
     ],
@@ -2588,7 +2588,7 @@ export const PRODUCTS: Product[] = [
       "Category": "gaming",
       "ASIN": "B0CHMXVCGH",
       "Bestseller Rank": "#19 in Video Games",
-      "Distribution": "Fulfill by Amazon Prime",
+      "Distribution": "Standard Merchant Delivery",
       "Condition": "100% Genuine and New"
     },
     "isTodayDeal": false,
@@ -2600,15 +2600,15 @@ export const PRODUCTS: Product[] = [
     "category": "books",
     "subCategory": "Books Top Picks",
     "price": 175,
-    "originalPrice": 296.61,
-    "discount": 41,
+    "originalPrice": 239.73,
+    "discount": 27,
     "rating": 3.8,
     "reviewsCount": 4,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/81w6cjvqtKL._AC_UL300_SR300,200_.jpg",
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/81w6cjvqtKL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/81w6cjvqtKL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/81w6cjvqtKL.jpg"
     ],
-    "prime": false,
+    "prime": true,
     "available": true,
     "shortDescription": "Premium highly rated books bestseller, featuring robust user satisfaction, elegant packaging, and authentic NCERT build.",
     "description": "This top-ranking product from Amazon's bestseller list is highly recommended in the Books division. Known for superior ergonomics, optimized design parameters, and outstanding reliability. Crafted using select components to ensure long-term utility for general use.",
@@ -2625,7 +2625,7 @@ export const PRODUCTS: Product[] = [
       "Category": "books",
       "ASIN": "9357291008",
       "Bestseller Rank": "#1 in Books",
-      "Distribution": "Standard Merchant Delivery",
+      "Distribution": "Fulfill by Amazon Prime",
       "Condition": "100% Genuine and New"
     },
     "isTodayDeal": false,
@@ -2637,22 +2637,22 @@ export const PRODUCTS: Product[] = [
     "category": "books",
     "subCategory": "Books Top Picks",
     "price": 415,
-    "originalPrice": 754.55,
-    "discount": 45,
+    "originalPrice": 560.81,
+    "discount": 26,
     "rating": 4.5,
-    "reviewsCount": 91095,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/71RPFp7+gfL._AC_UL300_SR300,200_.jpg",
+    "reviewsCount": 91097,
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/71RPFp7+gfL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/71RPFp7+gfL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/71RPFp7+gfL.jpg"
     ],
-    "prime": false,
+    "prime": true,
     "available": true,
     "shortDescription": "Premium highly rated books bestseller, featuring robust user satisfaction, elegant packaging, and authentic Generic build.",
     "description": "This top-ranking product from Amazon's bestseller list is highly recommended in the Books division. Known for superior ergonomics, optimized design parameters, and outstanding reliability. Crafted using select components to ensure long-term utility for general use.",
     "features": [
       "Top Category Choice: Ranked in the top 10 bestsellers in Amazon.in's Books section.",
       "Authentic Engineering: Designed and supplied by Generic for maximum consumer durability.",
-      "High User Engagement: Backed by over 91,095 reviews and a strong 4.5-star ranking.",
+      "High User Engagement: Backed by over 91,097 reviews and a strong 4.5-star ranking.",
       "Seamless Convenience: Full warranty coverage with fast delivery via Amazon Prime distribution.",
       "Superior Quality: Selected materials processed to modern standard quality controls."
     ],
@@ -2662,10 +2662,10 @@ export const PRODUCTS: Product[] = [
       "Category": "books",
       "ASIN": "9387779262",
       "Bestseller Rank": "#3 in Books",
-      "Distribution": "Standard Merchant Delivery",
+      "Distribution": "Fulfill by Amazon Prime",
       "Condition": "100% Genuine and New"
     },
-    "isTodayDeal": true,
+    "isTodayDeal": false,
     "amazonUrl": "https://www.amazon.in/dp/9387779262?tag=digitalsel0ef-21"
   },
   {
@@ -2674,22 +2674,22 @@ export const PRODUCTS: Product[] = [
     "category": "books",
     "subCategory": "Books Top Picks",
     "price": 409,
-    "originalPrice": 743.64,
-    "discount": 45,
+    "originalPrice": 492.77,
+    "discount": 17,
     "rating": 4.4,
-    "reviewsCount": 506,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/814wsw5PsoL._AC_UL300_SR300,200_.jpg",
+    "reviewsCount": 507,
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/814wsw5PsoL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/814wsw5PsoL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/814wsw5PsoL.jpg"
     ],
-    "prime": true,
+    "prime": false,
     "available": true,
     "shortDescription": "Premium highly rated books bestseller, featuring robust user satisfaction, elegant packaging, and authentic PARMAR build.",
     "description": "This top-ranking product from Amazon's bestseller list is highly recommended in the Books division. Known for superior ergonomics, optimized design parameters, and outstanding reliability. Crafted using select components to ensure long-term utility for general use.",
     "features": [
       "Top Category Choice: Ranked in the top 10 bestsellers in Amazon.in's Books section.",
       "Authentic Engineering: Designed and supplied by PARMAR for maximum consumer durability.",
-      "High User Engagement: Backed by over 506 reviews and a strong 4.4-star ranking.",
+      "High User Engagement: Backed by over 507 reviews and a strong 4.4-star ranking.",
       "Seamless Convenience: Full warranty coverage with fast delivery via Amazon Prime distribution.",
       "Superior Quality: Selected materials processed to modern standard quality controls."
     ],
@@ -2699,7 +2699,7 @@ export const PRODUCTS: Product[] = [
       "Category": "books",
       "ASIN": "935886592X",
       "Bestseller Rank": "#5 in Books",
-      "Distribution": "Fulfill by Amazon Prime",
+      "Distribution": "Standard Merchant Delivery",
       "Condition": "100% Genuine and New"
     },
     "isTodayDeal": true,
@@ -2711,22 +2711,22 @@ export const PRODUCTS: Product[] = [
     "category": "books",
     "subCategory": "Books Top Picks",
     "price": 167,
-    "originalPrice": 269.35,
-    "discount": 38,
+    "originalPrice": 303.64,
+    "discount": 45,
     "rating": 4.2,
-    "reviewsCount": 1718,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/41GhdUfA9EL._AC_UL300_SR300,200_.jpg",
+    "reviewsCount": 15658,
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/41GhdUfA9EL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/41GhdUfA9EL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/41GhdUfA9EL.jpg"
     ],
-    "prime": false,
+    "prime": true,
     "available": true,
     "shortDescription": "Premium highly rated books bestseller, featuring robust user satisfaction, elegant packaging, and authentic NCERT build.",
     "description": "This top-ranking product from Amazon's bestseller list is highly recommended in the Books division. Known for superior ergonomics, optimized design parameters, and outstanding reliability. Crafted using select components to ensure long-term utility for general use.",
     "features": [
       "Top Category Choice: Ranked in the top 10 bestsellers in Amazon.in's Books section.",
       "Authentic Engineering: Designed and supplied by NCERT for maximum consumer durability.",
-      "High User Engagement: Backed by over 1,718 reviews and a strong 4.2-star ranking.",
+      "High User Engagement: Backed by over 15,658 reviews and a strong 4.2-star ranking.",
       "Seamless Convenience: Full warranty coverage with fast delivery via Amazon Prime distribution.",
       "Superior Quality: Selected materials processed to modern standard quality controls."
     ],
@@ -2736,7 +2736,7 @@ export const PRODUCTS: Product[] = [
       "Category": "books",
       "ASIN": "B0H7L1LGB4",
       "Bestseller Rank": "#7 in Books",
-      "Distribution": "Standard Merchant Delivery",
+      "Distribution": "Fulfill by Amazon Prime",
       "Condition": "100% Genuine and New"
     },
     "isTodayDeal": true,
@@ -2748,13 +2748,13 @@ export const PRODUCTS: Product[] = [
     "category": "books",
     "subCategory": "Books Top Picks",
     "price": 139,
-    "originalPrice": 210.61,
-    "discount": 34,
+    "originalPrice": 159.77,
+    "discount": 13,
     "rating": 4.4,
-    "reviewsCount": 33428,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/71UJZncWSpL._AC_UL300_SR300,200_.jpg",
+    "reviewsCount": 33430,
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/71UJZncWSpL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/71UJZncWSpL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/71UJZncWSpL.jpg"
     ],
     "prime": true,
     "available": true,
@@ -2763,7 +2763,7 @@ export const PRODUCTS: Product[] = [
     "features": [
       "Top Category Choice: Ranked in the top 10 bestsellers in Amazon.in's Books section.",
       "Authentic Engineering: Designed and supplied by Generic for maximum consumer durability.",
-      "High User Engagement: Backed by over 33,428 reviews and a strong 4.4-star ranking.",
+      "High User Engagement: Backed by over 33,430 reviews and a strong 4.4-star ranking.",
       "Seamless Convenience: Full warranty coverage with fast delivery via Amazon Prime distribution.",
       "Superior Quality: Selected materials processed to modern standard quality controls."
     ],
@@ -2789,11 +2789,11 @@ export const PRODUCTS: Product[] = [
     "discount": 28,
     "rating": 4.2,
     "reviewsCount": 7,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/81pz-xwY7BL._AC_UL300_SR300,200_.jpg",
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/81pz-xwY7BL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/81pz-xwY7BL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/81pz-xwY7BL.jpg"
     ],
-    "prime": true,
+    "prime": false,
     "available": true,
     "shortDescription": "Premium highly rated books bestseller, featuring robust user satisfaction, elegant packaging, and authentic Did build.",
     "description": "This top-ranking product from Amazon's bestseller list is highly recommended in the Books division. Known for superior ergonomics, optimized design parameters, and outstanding reliability. Crafted using select components to ensure long-term utility for general use.",
@@ -2810,10 +2810,10 @@ export const PRODUCTS: Product[] = [
       "Category": "books",
       "ASIN": "9377300509",
       "Bestseller Rank": "#11 in Books",
-      "Distribution": "Fulfill by Amazon Prime",
+      "Distribution": "Standard Merchant Delivery",
       "Condition": "100% Genuine and New"
     },
-    "isTodayDeal": false,
+    "isTodayDeal": true,
     "amazonUrl": "https://www.amazon.in/dp/9377300509?tag=digitalsel0ef-21"
   },
   {
@@ -2822,15 +2822,15 @@ export const PRODUCTS: Product[] = [
     "category": "books",
     "subCategory": "Books Top Picks",
     "price": 115,
-    "originalPrice": 194.92,
-    "discount": 41,
+    "originalPrice": 138.55,
+    "discount": 17,
     "rating": 3.8,
     "reviewsCount": 684,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/710Xlsm29DL._AC_UL300_SR300,200_.jpg",
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/710Xlsm29DL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/710Xlsm29DL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/710Xlsm29DL.jpg"
     ],
-    "prime": true,
+    "prime": false,
     "available": true,
     "shortDescription": "Premium highly rated books bestseller, featuring robust user satisfaction, elegant packaging, and authentic NCERT build.",
     "description": "This top-ranking product from Amazon's bestseller list is highly recommended in the Books division. Known for superior ergonomics, optimized design parameters, and outstanding reliability. Crafted using select components to ensure long-term utility for general use.",
@@ -2847,7 +2847,7 @@ export const PRODUCTS: Product[] = [
       "Category": "books",
       "ASIN": "9357296034",
       "Bestseller Rank": "#13 in Books",
-      "Distribution": "Fulfill by Amazon Prime",
+      "Distribution": "Standard Merchant Delivery",
       "Condition": "100% Genuine and New"
     },
     "isTodayDeal": true,
@@ -2859,22 +2859,22 @@ export const PRODUCTS: Product[] = [
     "category": "books",
     "subCategory": "Books Top Picks",
     "price": 289,
-    "originalPrice": 498.28,
-    "discount": 42,
+    "originalPrice": 489.83,
+    "discount": 41,
     "rating": 4.6,
-    "reviewsCount": 82137,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/71XEsXS5RlL._AC_UL300_SR300,200_.jpg",
+    "reviewsCount": 82141,
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/71XEsXS5RlL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/71XEsXS5RlL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/71XEsXS5RlL.jpg"
     ],
-    "prime": true,
+    "prime": false,
     "available": true,
     "shortDescription": "Premium highly rated books bestseller, featuring robust user satisfaction, elegant packaging, and authentic The build.",
     "description": "This top-ranking product from Amazon's bestseller list is highly recommended in the Books division. Known for superior ergonomics, optimized design parameters, and outstanding reliability. Crafted using select components to ensure long-term utility for general use.",
     "features": [
       "Top Category Choice: Ranked in the top 10 bestsellers in Amazon.in's Books section.",
       "Authentic Engineering: Designed and supplied by The for maximum consumer durability.",
-      "High User Engagement: Backed by over 82,137 reviews and a strong 4.6-star ranking.",
+      "High User Engagement: Backed by over 82,141 reviews and a strong 4.6-star ranking.",
       "Seamless Convenience: Full warranty coverage with fast delivery via Amazon Prime distribution.",
       "Superior Quality: Selected materials processed to modern standard quality controls."
     ],
@@ -2884,7 +2884,7 @@ export const PRODUCTS: Product[] = [
       "Category": "books",
       "ASIN": "9390166268",
       "Bestseller Rank": "#15 in Books",
-      "Distribution": "Fulfill by Amazon Prime",
+      "Distribution": "Standard Merchant Delivery",
       "Condition": "100% Genuine and New"
     },
     "isTodayDeal": false,
@@ -2896,13 +2896,13 @@ export const PRODUCTS: Product[] = [
     "category": "books",
     "subCategory": "Books Top Picks",
     "price": 491,
-    "originalPrice": 551.69,
-    "discount": 11,
+    "originalPrice": 577.65,
+    "discount": 15,
     "rating": 4.6,
-    "reviewsCount": 111765,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/817HaeblezL._AC_UL300_SR300,200_.jpg",
+    "reviewsCount": 111768,
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/817HaeblezL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/817HaeblezL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/817HaeblezL.jpg"
     ],
     "prime": true,
     "available": true,
@@ -2911,7 +2911,7 @@ export const PRODUCTS: Product[] = [
     "features": [
       "Top Category Choice: Ranked in the top 10 bestsellers in Amazon.in's Books section.",
       "Authentic Engineering: Designed and supplied by Atomic for maximum consumer durability.",
-      "High User Engagement: Backed by over 111,765 reviews and a strong 4.6-star ranking.",
+      "High User Engagement: Backed by over 111,768 reviews and a strong 4.6-star ranking.",
       "Seamless Convenience: Full warranty coverage with fast delivery via Amazon Prime distribution.",
       "Superior Quality: Selected materials processed to modern standard quality controls."
     ],
@@ -2933,15 +2933,15 @@ export const PRODUCTS: Product[] = [
     "category": "books",
     "subCategory": "Books Top Picks",
     "price": 115,
-    "originalPrice": 133.72,
-    "discount": 14,
+    "originalPrice": 127.78,
+    "discount": 10,
     "rating": 4.1,
     "reviewsCount": 388,
-    "image": "https://images-eu.ssl-images-amazon.com/images/I/81Z83Q1RREL._AC_UL300_SR300,200_.jpg",
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/81Z83Q1RREL.jpg",
     "images": [
-      "https://images-eu.ssl-images-amazon.com/images/I/81Z83Q1RREL._AC_UL300_SR300,200_.jpg"
+      "https://images-eu.ssl-images-amazon.com/images/I/81Z83Q1RREL.jpg"
     ],
-    "prime": false,
+    "prime": true,
     "available": true,
     "shortDescription": "Premium highly rated books bestseller, featuring robust user satisfaction, elegant packaging, and authentic NCERT build.",
     "description": "This top-ranking product from Amazon's bestseller list is highly recommended in the Books division. Known for superior ergonomics, optimized design parameters, and outstanding reliability. Crafted using select components to ensure long-term utility for general use.",
@@ -2958,7 +2958,7 @@ export const PRODUCTS: Product[] = [
       "Category": "books",
       "ASIN": "9357298738",
       "Bestseller Rank": "#19 in Books",
-      "Distribution": "Standard Merchant Delivery",
+      "Distribution": "Fulfill by Amazon Prime",
       "Condition": "100% Genuine and New"
     },
     "isTodayDeal": true,
