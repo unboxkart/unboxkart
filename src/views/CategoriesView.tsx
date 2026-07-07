@@ -41,19 +41,6 @@ export default function CategoriesView({
     setCurrentPage(1);
   }, [searchQuery, selectedCategory, filters, sortBy]);
 
-  // Sync category state with filters
-  useEffect(() => {
-    if (filters.category !== selectedCategory) {
-      setFilters({ ...filters, category: selectedCategory });
-    }
-  }, [selectedCategory]);
-
-  useEffect(() => {
-    if (filters.category !== selectedCategory) {
-      setSelectedCategory(filters.category);
-    }
-  }, [filters.category]);
-
   // Dynamically calculate which brands exist in database
   const brandsList = useMemo(() => {
     const brands = PRODUCTS.map((p) => p.brand);

@@ -64,6 +64,23 @@ export default function App() {
     primeOnly: false,
   });
 
+  // Unified handler to set both selectedCategory and filters.category in a single render batch
+  const handleCategoryChange = (cat: string) => {
+    setSelectedCategory(cat);
+    setFilters((prev) => {
+      if (prev.category === cat) return prev;
+      return { ...prev, category: cat };
+    });
+  };
+
+  // Unified handler to update filters and keep selectedCategory in sync
+  const handleFiltersChange = (newFilters: FilterState) => {
+    setFilters(newFilters);
+    if (newFilters.category !== selectedCategory) {
+      setSelectedCategory(newFilters.category);
+    }
+  };
+
   // Back to Top button visibility state
   const [showScrollBtn, setShowScrollBtn] = useState<boolean>(false);
 
@@ -176,10 +193,7 @@ export default function App() {
         searchQuery={searchQuery}
         setSearchQuery={setSearchQuery}
         selectedCategory={selectedCategory}
-        setSelectedCategory={(cat) => {
-          setSelectedCategory(cat);
-          setFilters((prev) => ({ ...prev, category: cat }));
-        }}
+        setSelectedCategory={handleCategoryChange}
         wishlistCount={wishlist.length}
         openWishlist={() => setWishlistOpen(true)}
         darkMode={darkMode}
@@ -192,7 +206,7 @@ export default function App() {
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-10">
             <HomeView
               setCurrentView={setCurrentView}
-              setSelectedCategory={setSelectedCategory}
+              setSelectedCategory={handleCategoryChange}
               setSelectedPostSlug={setSelectedPostSlug}
               onProductClick={handleProductDetailOpen}
               onQuickView={setQuickViewProduct}
@@ -206,9 +220,9 @@ export default function App() {
           <CategoriesView
             searchQuery={searchQuery}
             selectedCategory={selectedCategory}
-            setSelectedCategory={setSelectedCategory}
+            setSelectedCategory={handleCategoryChange}
             filters={filters}
-            setFilters={setFilters}
+            setFilters={handleFiltersChange}
             onProductClick={handleProductDetailOpen}
             onQuickView={setQuickViewProduct}
             wishlist={wishlist}
@@ -221,9 +235,9 @@ export default function App() {
           <CategoriesView
             searchQuery={searchQuery}
             selectedCategory={selectedCategory}
-            setSelectedCategory={setSelectedCategory}
+            setSelectedCategory={handleCategoryChange}
             filters={filters}
-            setFilters={setFilters}
+            setFilters={handleFiltersChange}
             onProductClick={handleProductDetailOpen}
             onQuickView={setQuickViewProduct}
             wishlist={wishlist}
@@ -275,10 +289,7 @@ export default function App() {
           setSelectedPostSlug(null);
           setSelectedProduct(null);
         }}
-        setSelectedCategory={(cat) => {
-          setSelectedCategory(cat);
-          setFilters((prev) => ({ ...prev, category: cat }));
-        }}
+        setSelectedCategory={handleCategoryChange}
       />
 
       {/* Dynamic Slide Drawers and Overlays */}
