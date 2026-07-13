@@ -103,7 +103,7 @@ export default function Header({
               value={searchQuery}
               onChange={(e) => {
                 setSearchQuery(e.target.value);
-                if (currentView !== "categories" && currentView !== "home") {
+                if (currentView !== "categories" && currentView !== "deals") {
                   setCurrentView("categories");
                 }
               }}
@@ -242,7 +242,7 @@ export default function Header({
             value={searchQuery}
             onChange={(e) => {
               setSearchQuery(e.target.value);
-              if (currentView !== "categories" && currentView !== "home") {
+              if (currentView !== "categories" && currentView !== "deals") {
                 setCurrentView("categories");
               }
             }}
