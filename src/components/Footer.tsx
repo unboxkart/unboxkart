@@ -86,10 +86,10 @@ export default function Footer({ setCurrentView, setSelectedCategory }: FooterPr
               <Mail className="w-4 h-4 text-amber-500 shrink-0" />
               <a href={`mailto:${SITE_CONFIG.contactEmail}`} className="hover:text-amber-500 transition">{SITE_CONFIG.contactEmail}</a>
             </div>
-            <div className="flex items-center gap-2.5">
+            {/* <div className="flex items-center gap-2.5">
               <Phone className="w-4 h-4 text-amber-500 shrink-0" />
               <a href={`tel:${SITE_CONFIG.contactPhone}`} className="hover:text-amber-500 transition">{SITE_CONFIG.contactPhone}</a>
-            </div>
+            </div> */}
           </div>
         </div>
 
