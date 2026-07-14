@@ -56,7 +56,11 @@ export default function HomeView({
   const flashSaleProducts = PRODUCTS.filter(p => p.isTodayDeal).slice(0, 4);
   const bestSellers = PRODUCTS.filter(p => p.isBestSeller).slice(0, 4);
   const editorsPicks = PRODUCTS.filter(p => p.isEditorsPick).slice(0, 4);
-  const trendingProducts = PRODUCTS.filter(p => p.isFeatured).slice(0, 4);
+  const trendingProducts = [
+    ...PRODUCTS.filter(p => p.isFeatured),
+    ...PRODUCTS.filter(p => p.isNewArrival && !p.isFeatured),
+    ...PRODUCTS.filter(p => !p.isFeatured && !p.isNewArrival)
+  ].slice(0, 4);
 
   const handleCategoryClick = (catId: string) => {
     setSelectedCategory(catId);
@@ -92,84 +96,76 @@ export default function HomeView({
         <div className="absolute -left-16 -top-16 w-96 h-96 bg-amber-500/10 rounded-full blur-3xl pointer-events-none" />
         <div className="absolute -right-16 -bottom-16 w-96 h-96 bg-indigo-500/10 rounded-full blur-3xl pointer-events-none" />
 
-        <div className="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-8 p-8 md:p-12 items-center">
+        <div className="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-8 md:gap-12 p-8 md:p-14 max-w-6xl mx-auto items-center">
           
-          {/* Hero text */}
-          <div className="lg:col-span-7 space-y-6">
-            <span className="inline-flex items-center gap-1.5 rounded-full bg-amber-500/10 text-amber-500 px-3.5 py-1 text-xs font-black uppercase tracking-wider">
-              <Flame className="w-3.5 h-3.5" /> TODAY'S MEGA DEALS
-            </span>
-
-            <h1 className="text-3xl md:text-5xl font-black tracking-tight leading-tight">
-              Save Up To <span className="text-amber-500 underline decoration-amber-500/30 decoration-wavy">70% Off</span> Amazon's Best Sellers
-            </h1>
-
-            <p className="text-slate-350 text-xs md:text-sm leading-relaxed max-w-xl">
-              Tired of digging through endless products? We compile top-vetted, highest-rated Amazon discounts daily. Hand-verified for quality, reviews integrity, and real value.
-            </p>
-
-            {/* Countdown timer */}
-            <div className="flex items-center gap-4 py-2 border-y border-slate-800 max-w-md">
-              <span className="text-xs text-slate-400 font-bold flex items-center gap-1">
-                <Clock className="w-4 h-4 text-rose-500" /> Flash Sale ends in:
-              </span>
-              <div className="flex items-center gap-2 font-mono text-xs font-black text-slate-100">
-                <span className="bg-slate-800 px-2.5 py-1.5 rounded-lg border border-slate-750 text-amber-500">{padZero(timeLeft.hours)}</span>
-                <span>:</span>
-                <span className="bg-slate-800 px-2.5 py-1.5 rounded-lg border border-slate-750 text-amber-500">{padZero(timeLeft.minutes)}</span>
-                <span>:</span>
-                <span className="bg-slate-800 px-2.5 py-1.5 rounded-lg border border-slate-750 text-amber-500">{padZero(timeLeft.seconds)}</span>
-              </div>
-            </div>
-
-            {/* CTAs */}
-            <div className="flex flex-wrap gap-3">
-              <button
-                onClick={() => {
-                  setSelectedCategory("all");
-                  setCurrentView("deals");
-                  window.scrollTo({ top: 0, behavior: "smooth" });
-                }}
-                className="px-6 h-12 bg-amber-500 hover:bg-amber-400 text-slate-950 font-black text-xs uppercase tracking-wider rounded-xl transition shadow-lg cursor-pointer flex items-center gap-1"
-              >
-                Explore Flash Deals
-                <ArrowRight className="w-4 h-4 stroke-[2.5]" />
-              </button>
-
-              <button
-                onClick={() => {
-                  setSelectedCategory("all");
-                  setCurrentView("categories");
-                  window.scrollTo({ top: 0, behavior: "smooth" });
-                }}
-                className="px-5 h-12 bg-slate-800 hover:bg-slate-750 border border-slate-700 text-slate-200 text-xs font-bold rounded-xl transition cursor-pointer"
-              >
-                Browse Catalog
-              </button>
-            </div>
-          </div>
-
-          {/* Featured product spotlight illustration (or hero slider) (grid span 5) */}
-          <div className="lg:col-span-5 flex justify-center">
-            <div className="relative w-72 md:w-80 aspect-square rounded-2xl overflow-hidden border border-slate-850 bg-slate-950 p-3 flex items-center justify-center shadow-2xl">
+          {/* Left Column: Image First and Amazon Buy Button Below */}
+          <div className="lg:col-span-5 flex flex-col items-center gap-6 w-full">
+            {/* 1. Beautifully Featured Product Frame */}
+            <div className="relative group w-full aspect-square max-w-[340px] rounded-3xl overflow-hidden border border-slate-850 bg-slate-950 p-6 flex items-center justify-center shadow-2xl hover:border-amber-500/30 transition-all duration-500">
+              {/* Product Background glow on hover */}
+              <div className="absolute inset-0 bg-amber-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" />
               <img 
-                src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&auto=format&fit=crop&q=80" 
-                alt="Product Showcase" 
-                className="max-h-full max-w-full object-cover rounded-xl opacity-90"
+                src={PRODUCTS[0]?.image} 
+                alt={PRODUCTS[0]?.name} 
+                className="max-h-full max-w-full object-contain rounded-2xl opacity-95 group-hover:scale-105 transition-transform duration-500"
               />
-              <div className="absolute bottom-4 left-4 right-4 bg-slate-900/95 border border-slate-800 rounded-xl p-3 flex items-center justify-between">
-                <div>
-                  <h4 className="text-[10px] text-amber-500 font-bold uppercase tracking-wider">Spotlight Deal</h4>
-                  <p className="text-xs font-bold text-white truncate max-w-[150px]">Sony WH-1000XM5</p>
-                </div>
-                <div className="text-right">
-                  <span className="text-[10px] text-slate-400 line-through block">₹29,990</span>
-                  <span className="text-sm font-black text-amber-500">₹24,990</span>
-                </div>
-              </div>
+            </div>
+
+            {/* 2. Massive standalone Amazon Buy Button directly below */}
+            <div className="w-full flex justify-center max-w-[340px]">
+              <a
+                href={PRODUCTS[0]?.amazonUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group inline-flex items-center justify-center gap-3 w-full px-8 py-4 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-slate-950 font-black text-xs uppercase tracking-widest rounded-2xl transition-all duration-300 shadow-[0_12px_40px_rgb(245,158,11,0.25)] hover:shadow-[0_12px_50px_rgb(245,158,11,0.45)] transform hover:-translate-y-0.5 active:translate-y-0 border border-amber-400/20 cursor-pointer text-center"
+              >
+                <ShoppingBag className="w-5 h-5 stroke-[2.5]" />
+                Buy Now on Amazon
+                <ArrowRight className="w-5 h-5 stroke-[2.5] group-hover:translate-x-1 transition-transform" />
+              </a>
             </div>
           </div>
 
+          {/* Right Column: Title Adjacent to the Image/Button */}
+          <div className="lg:col-span-7 flex flex-col text-left space-y-5 md:space-y-6">
+            <h1 className="text-2xl md:text-4xl font-black tracking-tight leading-tight text-white hover:text-amber-400 transition-colors duration-300">
+              {PRODUCTS[0]?.name}
+            </h1>
+          </div>
+
+        </div>
+      </section>
+
+      {/* Viral / Trendy Products Section */}
+      <section className="space-y-6">
+        <div className="flex items-end justify-between border-b border-slate-150 dark:border-slate-850 pb-4">
+          <div className="space-y-1">
+            <div className="flex items-center gap-1.5">
+              <span className="inline-flex items-center gap-1 rounded-full bg-rose-500/10 text-rose-500 dark:bg-rose-500/15 dark:text-rose-400 px-2.5 py-0.5 text-[10px] font-black uppercase tracking-wider border border-rose-500/10">
+                <Flame className="w-3 h-3 animate-pulse text-rose-500" /> VIRAL ON SOCIALS
+              </span>
+            </div>
+            <h2 className="text-2xl font-black text-slate-900 dark:text-white tracking-tight uppercase">🔥 Trending / Viral Finds</h2>
+          </div>
+          <button 
+            onClick={() => handleCategoryClick("all")} 
+            className="text-xs font-bold text-slate-500 hover:text-amber-500 flex items-center gap-1 transition cursor-pointer"
+          >
+            See All <ChevronRight className="w-4 h-4" />
+          </button>
+        </div>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          {trendingProducts.map((p) => (
+            <ProductCard
+              key={p.id}
+              product={p}
+              onQuickView={onQuickView}
+              isWishlisted={wishlist.includes(p.id)}
+              onToggleWishlist={onToggleWishlist}
+              onProductClick={onProductClick}
+            />
+          ))}
         </div>
       </section>
 
@@ -206,39 +202,7 @@ export default function HomeView({
         </div>
       </section>
 
-      {/* 3. Flash Sale Section */}
-      {flashSaleProducts.length > 0 && (
-        <section className="space-y-6">
-          <div className="flex items-center justify-between border-b border-slate-150 dark:border-slate-850 pb-4">
-            <div className="flex items-center gap-2">
-              <div className="p-1.5 rounded-lg bg-rose-500/10 text-rose-500">
-                <Flame className="w-5 h-5" />
-              </div>
-              <h2 className="text-2xl font-black text-slate-900 dark:text-white tracking-tight uppercase">🔥 Today's Mega Flash Sales</h2>
-            </div>
-            
-            <button
-              onClick={() => handleCategoryClick("all")}
-              className="text-xs font-bold text-amber-500 hover:text-amber-400 flex items-center gap-1 transition"
-            >
-              See All Deals <ChevronRight className="w-4 h-4" />
-            </button>
-          </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {flashSaleProducts.map((p) => (
-              <ProductCard
-                key={p.id}
-                product={p}
-                onQuickView={onQuickView}
-                isWishlisted={wishlist.includes(p.id)}
-                onToggleWishlist={onToggleWishlist}
-                onProductClick={onProductClick}
-              />
-            ))}
-          </div>
-        </section>
-      )}
 
       {/* 4. Why Shop With Us Trust Badges */}
       <section className="rounded-3xl bg-slate-50 dark:bg-slate-950 p-8 border border-slate-200 dark:border-slate-850">
