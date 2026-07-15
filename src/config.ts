@@ -1,7 +1,7 @@
 import { SiteConfig } from "./types";
 
 export const SITE_CONFIG: SiteConfig = {
-  amazonAssociateId: "amzn-aff-20", // Change this to your real Amazon Associate ID
+  amazonAssociateId: "digitalsel0ef-21", // Change this to your real Amazon Associate ID
   siteName: "unboxkart",
   siteTitle: "unboxkart - Your Ultimate Amazon Smart Shopping Guide",
   siteDescription: "Find the best Amazon deals, top-rated products, and expert buying guides. We scour Amazon daily to bring you handpicked deals with up to 70% savings.",

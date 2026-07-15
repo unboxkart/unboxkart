@@ -62,10 +62,11 @@ export default function Header({
 
   return (
     <header className="sticky top-0 z-50 w-full transition-all duration-300 bg-slate-900/80 dark:bg-slate-950/80 backdrop-blur-lg text-white shadow-md border-b border-slate-800/50">
-      {/* Top micro announcement bar */}
+      {/* Top micro announcement bar
       <div className="w-full bg-amber-500 py-1.5 px-4 text-center text-xs font-semibold text-slate-950 tracking-wide select-none animate-pulse">
         ⚡ Today's Mega Deals: Save up to 70% on Top Rated Tech & Home Essentials. Limited Time Only!
       </div>
+      */}
 
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between gap-4">

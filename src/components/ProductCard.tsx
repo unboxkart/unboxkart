@@ -53,11 +53,7 @@ export default function ProductCard({
     >
       {/* Absolute Badges */}
       <div className="absolute top-3 left-3 z-10 flex flex-col gap-1.5 pointer-events-none">
-        {product.discount > 0 && (
-          <span className="inline-flex items-center rounded-md bg-rose-500 px-2 py-0.5 text-[10px] font-black text-white uppercase tracking-wider">
-            -{product.discount}% OFF
-          </span>
-        )}
+
         {product.isBestSeller && (
           <span className="inline-flex items-center rounded-md bg-amber-500 px-2 py-0.5 text-[10px] font-black text-slate-950 uppercase tracking-wider shadow">
             Best Seller
@@ -113,11 +109,7 @@ export default function ProductCard({
 
       {/* Content wrapper */}
       <div className="flex flex-col flex-1 p-4">
-        {/* Category & Brand */}
-        <div className="flex items-center justify-between text-[10px] font-bold text-slate-400 dark:text-slate-500 uppercase tracking-widest mb-1">
-          <span>{product.subCategory || product.category}</span>
-          <span>{product.brand}</span>
-        </div>
+
 
         {/* Product Title */}
         <h3 className="text-sm font-bold text-slate-900 dark:text-slate-100 line-clamp-2 min-h-[40px] group-hover:text-amber-500 dark:group-hover:text-amber-400 transition-colors">
@@ -137,10 +129,7 @@ export default function ProductCard({
           </span>
         </div>
 
-        {/* Short description */}
-        <p className="text-xs text-slate-500 dark:text-slate-400 line-clamp-2 mt-2 leading-relaxed">
-          {product.shortDescription}
-        </p>
+
 
         {/* Price & Primebadge spacer */}
         <div className="mt-auto pt-4 flex flex-col gap-2">
@@ -156,17 +145,10 @@ export default function ProductCard({
               )}
             </div>
 
-            {product.prime && (
-              <span className="inline-flex items-center text-[9px] font-extrabold text-sky-500 select-none tracking-tight">
-                ✓ prime
-              </span>
-            )}
+
           </div>
 
-          {/* Quick Details indicator (availability) */}
-          <div className="flex items-center justify-between text-[10px] text-slate-400">
-            <span>{product.available ? "In Stock" : "Temporarily Out of Stock"}</span>
-          </div>
+
 
           {/* Buttons footer */}
           <div className="grid grid-cols-5 gap-2 mt-2 pt-2 border-t border-slate-100 dark:border-slate-850">
