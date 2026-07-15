@@ -133,7 +133,7 @@ export default function ProductCard({
 
         {/* Price & Primebadge spacer */}
         <div className="mt-auto pt-4 flex flex-col gap-2">
-          <div className="flex items-baseline justify-between gap-1.5">
+          {/* <div className="flex items-baseline justify-between gap-1.5">
             <div className="flex items-baseline gap-1.5">
               <span className="text-lg font-black text-slate-950 dark:text-white">
                 ₹{product.price.toFixed(2)}
@@ -146,7 +146,7 @@ export default function ProductCard({
             </div>
 
 
-          </div>
+          </div> */}
 
 
 
