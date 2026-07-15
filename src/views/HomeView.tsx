@@ -4,6 +4,7 @@ import {
   HelpCircle, ThumbsUp, ShoppingBag, Cpu, Utensils, Shirt, Sparkles as BeautyIcon, Dumbbell, Gamepad2, BookOpen
 } from "lucide-react";
 import { PRODUCTS } from "../data/products";
+import { HERO_PRODUCT, VIRAL_PRODUCTS } from "../data/specialProducts";
 import { BLOG_POSTS } from "../data/blog";
 import { SITE_CONFIG, CATEGORIES } from "../config";
 import { Product } from "../types";
@@ -56,11 +57,6 @@ export default function HomeView({
   const flashSaleProducts = PRODUCTS.filter(p => p.isTodayDeal).slice(0, 4);
   const bestSellers = PRODUCTS.filter(p => p.isBestSeller).slice(0, 4);
   const editorsPicks = PRODUCTS.filter(p => p.isEditorsPick).slice(0, 4);
-  const trendingProducts = [
-    ...PRODUCTS.filter(p => p.isFeatured),
-    ...PRODUCTS.filter(p => p.isNewArrival && !p.isFeatured),
-    ...PRODUCTS.filter(p => !p.isFeatured && !p.isNewArrival)
-  ].slice(0, 4);
 
   const handleCategoryClick = (catId: string) => {
     setSelectedCategory(catId);
@@ -105,8 +101,8 @@ export default function HomeView({
               {/* Product Background glow on hover */}
               <div className="absolute inset-0 bg-amber-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" />
               <img 
-                src={PRODUCTS[0]?.image} 
-                alt={PRODUCTS[0]?.name} 
+                src={HERO_PRODUCT?.image} 
+                alt={HERO_PRODUCT?.name} 
                 className="max-h-full max-w-full object-contain rounded-2xl opacity-95 group-hover:scale-105 transition-transform duration-500"
               />
             </div>
@@ -114,7 +110,7 @@ export default function HomeView({
             {/* 2. Massive standalone Amazon Buy Button directly below */}
             <div className="w-full flex justify-center max-w-[340px]">
               <a
-                href={PRODUCTS[0]?.amazonUrl}
+                href={HERO_PRODUCT?.amazonUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group inline-flex items-center justify-center gap-3 w-full px-8 py-4 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-slate-950 font-black text-xs uppercase tracking-widest rounded-2xl transition-all duration-300 shadow-[0_12px_40px_rgb(245,158,11,0.25)] hover:shadow-[0_12px_50px_rgb(245,158,11,0.45)] transform hover:-translate-y-0.5 active:translate-y-0 border border-amber-400/20 cursor-pointer text-center"
@@ -129,7 +125,7 @@ export default function HomeView({
           {/* Right Column: Title Adjacent to the Image/Button */}
           <div className="lg:col-span-7 flex flex-col text-left space-y-5 md:space-y-6">
             <h1 className="text-2xl md:text-4xl font-black tracking-tight leading-tight text-white hover:text-amber-400 transition-colors duration-300">
-              {PRODUCTS[0]?.name}
+              {HERO_PRODUCT?.name}
             </h1>
           </div>
 
@@ -156,7 +152,7 @@ export default function HomeView({
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {trendingProducts.map((p) => (
+          {VIRAL_PRODUCTS.map((p) => (
             <ProductCard
               key={p.id}
               product={p}
