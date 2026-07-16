@@ -1,6 +1,7 @@
 import React, { useState, useMemo, useEffect } from "react";
 import { Filter, ChevronDown, LayoutGrid, ListFilter, AlertTriangle, ArrowRight, Star } from "lucide-react";
 import { PRODUCTS } from "../data/products";
+import { HERO_PRODUCT, VIRAL_PRODUCTS } from "../data/specialProducts";
 import { Product } from "../types";
 import ProductCard from "../components/ProductCard";
 import SidebarFilters, { FilterState } from "../components/SidebarFilters";
@@ -49,7 +50,23 @@ export default function CategoriesView({
 
   // Filter products based on search queries, side filters, and categories
   const filteredProducts = useMemo(() => {
-    let result = [...PRODUCTS];
+    // Start with standard products
+    const allAvailable = [...PRODUCTS];
+    
+    // Append special products so they can be searched and filtered
+    if (HERO_PRODUCT) {
+      if (!allAvailable.some((p) => p.id === HERO_PRODUCT.id)) {
+        allAvailable.push(HERO_PRODUCT);
+      }
+    }
+    
+    VIRAL_PRODUCTS.forEach((vp) => {
+      if (!allAvailable.some((p) => p.id === vp.id)) {
+        allAvailable.push(vp);
+      }
+    });
+
+    let result = allAvailable;
 
     // If viewing today's deals view mode, pre-filter
     if (viewMode === "deals") {
