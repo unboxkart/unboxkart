@@ -11,7 +11,6 @@ const affiliateId = SITE_CONFIG.amazonAssociateId;
  * of the homepage as the exclusive spotlight deals carousel.
  */
 export const HERO_PRODUCTS: Product[] = [
-  ,
   {
     id: "hero-soap-dispensing-brush",
     name: "Soap Dispensing Palm Brush, Kitchen Cleaning Scrubber with Liquid Dispenser, Dish Washing Brush with Refillable Handle for Utensils, Sink & Household Cleaning",
@@ -133,41 +132,7 @@ export const HERO_PRODUCT: Product = HERO_PRODUCTS[0];
  * Add, remove, or modify items here to instantly update the section!
  */
 export const VIRAL_PRODUCTS: Product[] = [
-  {
-    id: "viral-cuzor-router-ups",
-    name: "Cuzor 12V Router UPS (Under-Power Supply) for Wi-Fi Router | Uninterrupted Internet with Switching & Moisture-Resistant | Up to 4 Hours Backup",
-    category: "electronics",
-    subCategory: "Wi-Fi Router Accessories",
-    price: 1499,
-    originalPrice: 2999,
-    discount: 50,
-    rating: 4.1,
-    reviewsCount: 1420,
-    image: "https://m.media-amazon.com/images/I/81kcE2D2ahL._SL1500_.jpg",
-    images: [
-      "https://m.media-amazon.com/images/I/81kcE2D2ahL._SL1500_.jpg"
-    ],
-    prime: true,
-    available: true,
-    shortDescription: "Power your Wi-Fi router uninterruptedly during load shedding and power cuts. Seamless automatic switching, moisture-resistant design.",
-    description: "Never lose internet connectivity during power outages! The Cuzor 12V Router UPS provides uninterrupted power to your Wi-Fi router, ensuring continuous video calls, online classes, or gaming sessions. Designed with professional-grade safety features, seamless millisecond switching, and moisture-resistant architecture, it keeps your home network active for up to 4 hours.",
-    features: [
-      "Up to 4 Hours Backup: Keeps your internet up and running during heavy power cuts.",
-      "Seamless Zero-Lag Switching: Bridges power outages instantly without rebooting your Wi-Fi router.",
-      "Moisture-Resistant Design: Robustly protected internal circuitry for all-weather durability.",
-      "Wide Compatibility: Designed specifically for 12V routers, modems, and smart home hubs.",
-      "Intelligent Charging: Built-in overcharge, deep discharge, and short-circuit protection."
-    ],
-    brand: "Cuzor",
-    specifications: {
-      "Brand": "Cuzor",
-      "Model": "Router UPS 12V",
-      "ASIN": "B07ZKD8T1Q",
-      "Backup Time": "Up to 4 Hours",
-      "Output Voltage": "12V DC"
-    },
-    amazonUrl: `https://www.amazon.in/Cuzor-Router-Switching-Moisture-Resistant/dp/B07ZKD8T1Q/ref=sr_1_3?tag=${affiliateId}`
-  },
+  ...HERO_PRODUCTS,
   {
     id: "viral-milton-egg-boiler",
     name: "MILTON Smart Instant Egg Boiler (360-Watt) | Boils Up to 7 Eggs at Once | 3 Boiling Modes (Hard, Medium, Soft) | Stainless Steel Heating Plate | Transparent Lid with Auto Shut-Off",
