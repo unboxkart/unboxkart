@@ -5,131 +5,125 @@ const affiliateId = SITE_CONFIG.amazonAssociateId;
 
 /**
  * ==========================================
- *              HERO PRODUCT
+ *              HERO PRODUCTS
  * ==========================================
- * This product is showcased at the very top 
- * of the homepage as the exclusive spotlight deal.
+ * This list of products is showcased at the very top 
+ * of the homepage as the exclusive spotlight deals carousel.
  */
-export const HERO_PRODUCT: Product = {
-  id: "hero-misamo-oil-dispenser",
-  name: "Misamo Enterprise Oil Dispenser and Sprayer 2-in-1, Premium Glass Olive Oil Dispenser Bottle with Handle & Dual Function (Pour & Spray) for Kitchen, Cooking, Baking, Salad, Air Fryer",
-  category: "home",
-  subCategory: "Kitchen Essentials",
-  price: 349,
-  originalPrice: 999,
-  discount: 65,
-  rating: 4.5,
-  reviewsCount: 1248,
-  image: "https://m.media-amazon.com/images/I/713+2UPOISL._SL1500_.jpg",
-  images: [
-    "https://m.media-amazon.com/images/I/713+2UPOISL._SL1500_.jpg"
-  ],
-  prime: true,
-  available: true,
-  shortDescription: "Upgrade your culinary game with the premium 2-in-1 glass oil dispenser and sprayer. Effortlessly switch between pouring and spraying for perfect, healthy cooking.",
-  description: "Ditch the messy oil bottles and uneven sprays! The Misamo Enterprise 2-in-1 Glass Oil Dispenser & Sprayer is the ultimate kitchen companion for healthy, precise cooking. Featuring an ergonomic handle and an advanced dual-function mechanism, it allows you to gracefully pour oil for stir-fries or spray a fine, uniform mist for air frying, baking, salads, and grilling. Crafted from premium, lead-free borosilicate glass, it's 100% food-safe, durable, and elegant enough to transition from the countertop to your dining table.",
-  features: [
-    "Innovative 2-in-1 Design: Seamlessly switch between a steady, dripless pour and an ultra-fine wide-angle spray with a single thumb-controlled lever.",
-    "Healthy & Portion Control: Fine mist spray helps distribute oil evenly, reducing calorie intake and minimizing oil waste.",
-    "Premium Food-Safe Glass: Built with high-quality borosilicate glass that's heat-resistant, lead-free, and extremely easy to clean.",
-    "Ergonomic Non-Slip Handle: Designed with a sturdy grip handle that prevents slipping, ensuring safe handling even with oily hands.",
-    "Wide-Mouth Easy Refill: The spacious opening makes refilling a breeze without needing a funnel, and accommodates a variety of oils, vinegars, and sauces."
-  ],
-  brand: "Misamo Enterprise",
-  specifications: {
-    "Brand": "Misamo Enterprise",
-    "Material": "Premium Borosilicate Glass & Food-Grade Plastic",
-    "Capacity": "470ml / 16oz",
-    "Special Feature": "Dual Function (Spray & Pour), Leak-Proof, Ergonomic Handle",
-    "ASIN": "B0DH4WS3B4",
-    "Best Seller Rank": "#1 in Kitchen Sprayers",
-    "Warranty": "100% Genuine and Brand New"
-  },
-  isTodayDeal: true,
-  amazonUrl: `https://www.amazon.in/Misamo-Enterprise-OIL-DISPENSER-SPRAYER/dp/B0DH4WS3B4/ref=pd_rhf_ee_s_pd_crcd_d_sccl_2_3/257-3660837-2868308?tag=${affiliateId}`
-};
-
-export const HERO_PRODUCT_2: Product = {
-  id: "hero-samsung-s25-ultra",
-  name: "Samsung Galaxy S25 Ultra 5G AI Smartphone (Titanium Gray, 12GB RAM, 256GB Storage) | 200MP Camera | S Pen Included | Long Battery Life",
-  category: "electronics",
-  subCategory: "Premium Smartphones",
-  price: 109999,
-  originalPrice: 189653,
-  discount: 42,
-  rating: 4.8,
-  reviewsCount: 2348,
-  image: "https://m.media-amazon.com/images/I/71tl8pu4fKL._SL1500_.jpg",
-  images: [
-    "https://m.media-amazon.com/images/I/71tl8pu4fKL._SL1500_.jpg"
-  ],
-  prime: true,
-  available: true,
-  shortDescription: "Unleash the future of mobile technology with Galaxy AI. Features a revolutionary 200MP camera, built-in S Pen, and titanium strength.",
-  description: "The peak of smartphone engineering is here. The Samsung Galaxy S25 Ultra features Galaxy AI capabilities, a built-in stylus, an unmatched 200MP camera system, and ultra-durable Titanium body construction. Elevate your productivity and style.",
-  features: [
-    "Next-Gen Galaxy AI: Circle to Search, Live Translate, Note Assist, and Photo Assist on your device.",
-    "Built-In S Pen: Sketch, write, and control your device with high-precision stylus.",
-    "Pro-Grade 200MP Camera: Capture stunningly detailed photos day or night, and zoom with optical-quality clarity.",
-    "Ultra-Durable Titanium Frame: Crafted with premium titanium for maximum drop resistance and elegant look.",
-    "Snapdragon 8 Gen 4 for Galaxy: Exceptional speeds for gaming, multi-tasking, and AI workloads."
-  ],
-  brand: "Samsung",
-  specifications: {
-    "Brand": "Samsung",
-    "Model": "Galaxy S25 Ultra",
-    "RAM": "12GB",
-    "Storage": "256GB",
-    "Color": "Titanium Gray",
-    "Warranty": "1 Year Manufacturer Warranty"
-  },
-  isTodayDeal: true,
-  amazonUrl: `https://www.amazon.in/dp/B0DTD2H5D7?tag=${affiliateId}`
-};
-
-export const HERO_PRODUCT_3: Product = {
-  id: "hero-qubo-smart-cam",
-  name: "Qubo Smart Cam 360° 3MP Wi-Fi Smart Home Security Camera [2026 Edition] by Hero Group | STQC Certified Privacy | AI Person Detection & Motion Tracking | Color Night Vision | Two-Way Audio Talk",
-  category: "electronics",
-  subCategory: "Smart Home Security",
-  price: 2490,
-  originalPrice: 4290,
-  discount: 42,
-  rating: 4.5,
-  reviewsCount: 12450,
-  image: "https://m.media-amazon.com/images/I/7155rh9o61L._SL1500_.jpg",
-  images: [
-    "https://m.media-amazon.com/images/I/7155rh9o61L._SL1500_.jpg"
-  ],
-  prime: true,
-  available: true,
-  shortDescription: "Protect your home with a premium 360° smart security camera. Features 3MP Ultra HD video, STQC certified privacy, AI detection, and two-way talk.",
-  description: "Secure your home and stay connected with your loved ones using the Qubo Smart Cam 360° 3MP by Hero Group. Boasting a stellar 3MP Ultra HD sensor and a multi-directional motor, this security camera delivers a complete 360° panoramic view with crystal-clear day and night color vision. Engineered with advanced AI person detection and automatic motion tracking, it instantly detects intruders, rings a built-in alarm, and pushes immediate notifications to your smartphone.",
-  features: [
-    "3MP Ultra HD Resolution: Delivers exceptionally sharp 1296p video feed so you never miss a single detail.",
-    "Complete 360° Coverage: Remote pan-and-tilt controls cover the entire room, eliminating blind spots completely.",
-    "STQC Certified Security: Trusted military-grade privacy encryption protects your camera stream and personal video data.",
-    "AI Person Detection: Intelligently distinguishes humans from pets or blowing curtains to eliminate false alerts.",
-    "Enhanced Color Night Vision: Features a premium low-light sensor that captures bright, full-color video even in pitch dark."
-  ],
-  brand: "Qubo",
-  specifications: {
-    "Brand": "Qubo (by Hero Group)",
-    "Model": "Smart Cam 360 3MP (2026)",
-    "ASIN": "B0G64G64YL",
-    "Resolution": "3MP (1296p) Ultra HD",
-    "Connectivity": "Wi-Fi (2.4 GHz)",
-    "Special Feature": "AI Tracking, Color Night Vision, Two-Way Audio, STQC Certified"
-  },
-  isTodayDeal: true,
-  amazonUrl: `https://www.amazon.in/dp/B0G64G64YL?tag=${affiliateId}`
-};
-
 export const HERO_PRODUCTS: Product[] = [
-  HERO_PRODUCT,
-  HERO_PRODUCT_2,
-  HERO_PRODUCT_3
+  ,
+  {
+    id: "hero-soap-dispensing-brush",
+    name: "Soap Dispensing Palm Brush, Kitchen Cleaning Scrubber with Liquid Dispenser, Dish Washing Brush with Refillable Handle for Utensils, Sink & Household Cleaning",
+    category: "home",
+    subCategory: "Kitchen Utilities",
+    price: 179,
+    originalPrice: 499,
+    discount: 64,
+    rating: 4.4,
+    reviewsCount: 1845,
+    image: "https://m.media-amazon.com/images/I/41kV4CU7iGL.jpg",
+    images: [
+      "https://m.media-amazon.com/images/I/41kV4CU7iGL.jpg"
+    ],
+    prime: true,
+    available: true,
+    shortDescription: "Upgrade your cleaning routine with the premium Soap Dispensing Palm Brush. Effortlessly dispense liquid soap with a push-button mechanism while scrubbing stubborn grime.",
+    description: "Upgrade your cleaning routine with the premium Soap Dispensing Palm Brush. Effortlessly dispense liquid soap with a push-button mechanism while scrubbing stubborn grime. Perfect for washing dishes, pots, pans, sinks, cast iron, stove-tops, and bathroom tiles.",
+    features: [
+      "Smart Soap Dispensing: Press the top button to dispense soap on-demand, reducing waste and keeping hands clean.",
+      "Ergonomic Palm Grip: Fits comfortably in your palm for maximum leverage, control, and non-slip scrubbing power.",
+      "Durable Nylon Bristles: High-density, odor-resistant bristles easily scrub away grease and food residue without scratching.",
+      "Refillable Clear Body: Transparent reservoir shows remaining soap level, making refills quick and easy.",
+      "Versatile Scrubber: Perfect for washing dishes, pots, pans, sinks, cast iron, stove-tops, and bathroom tiles."
+    ],
+    brand: "GIEXICA",
+    specifications: {
+      "Brand": "GIEXICA",
+      "Model": "Soap Dispensing Palm Brush",
+      "Material": "Premium ABS & Nylon Bristles",
+      "Special Feature": "On-demand soap release, non-slip grip, refillable reservoir",
+      "ASIN": "B0GVK89GC7"
+    },
+    isTodayDeal: true,
+    amazonUrl: `https://www.amazon.in/gp/product/B0GVK89GC7/ref=ox_sc_act_title_3?smid=AZDM1T8DAFHPJ&psc=1&tag=${affiliateId}`
+  },
+  {
+    id: "hero-misamo-oil-dispenser",
+    name: "Misamo Enterprise Oil Dispenser and Sprayer 2-in-1, Premium Glass Olive Oil Dispenser Bottle with Handle & Dual Function (Pour & Spray) for Kitchen, Cooking, Baking, Salad, Air Fryer",
+    category: "home",
+    subCategory: "Kitchen Essentials",
+    price: 349,
+    originalPrice: 999,
+    discount: 65,
+    rating: 4.5,
+    reviewsCount: 1248,
+    image: "https://m.media-amazon.com/images/I/713+2UPOISL._SL1500_.jpg",
+    images: [
+      "https://m.media-amazon.com/images/I/713+2UPOISL._SL1500_.jpg"
+    ],
+    prime: true,
+    available: true,
+    shortDescription: "Upgrade your culinary game with the premium 2-in-1 glass oil dispenser and sprayer. Effortlessly switch between pouring and spraying for perfect, healthy cooking.",
+    description: "Ditch the messy oil bottles and uneven sprays! The Misamo Enterprise 2-in-1 Glass Oil Dispenser & Sprayer is the ultimate kitchen companion for healthy, precise cooking. Featuring an ergonomic handle and an advanced dual-function mechanism, it allows you to gracefully pour oil for stir-fries or spray a fine, uniform mist for air frying, baking, salads, and grilling. Crafted from premium, lead-free borosilicate glass, it's 100% food-safe, durable, and elegant enough to transition from the countertop to your dining table.",
+    features: [
+      "Innovative 2-in-1 Design: Seamlessly switch between a steady, dripless pour and an ultra-fine wide-angle spray with a single thumb-controlled lever.",
+      "Healthy & Portion Control: Fine mist spray helps distribute oil evenly, reducing calorie intake and minimizing oil waste.",
+      "Premium Food-Safe Glass: Built with high-quality borosilicate glass that's heat-resistant, lead-free, and extremely easy to clean.",
+      "Ergonomic Non-Slip Handle: Designed with a sturdy grip handle that prevents slipping, ensuring safe handling even with oily hands.",
+      "Wide-Mouth Easy Refill: The spacious opening makes refilling a breeze without needing a funnel, and accommodates a variety of oils, vinegars, and sauces."
+    ],
+    brand: "Misamo Enterprise",
+    specifications: {
+      "Brand": "Misamo Enterprise",
+      "Material": "Premium Borosilicate Glass & Food-Grade Plastic",
+      "Capacity": "470ml / 16oz",
+      "Special Feature": "Dual Function (Spray & Pour), Leak-Proof, Ergonomic Handle",
+      "ASIN": "B0DH4WS3B4",
+      "Best Seller Rank": "#1 in Kitchen Sprayers",
+      "Warranty": "100% Genuine and Brand New"
+    },
+    isTodayDeal: true,
+    amazonUrl: `https://www.amazon.in/Misamo-Enterprise-OIL-DISPENSER-SPRAYER/dp/B0DH4WS3B4/ref=pd_rhf_ee_s_pd_crcd_d_sccl_2_3/257-3660837-2868308?tag=${affiliateId}`
+  },
+  {
+    id: "hero-cuzor-router-ups",
+    name: "Cuzor 12V Router UPS (Under-Power Supply) for Wi-Fi Router | Uninterrupted Internet with Switching & Moisture-Resistant | Up to 4 Hours Backup",
+    category: "electronics",
+    subCategory: "Wi-Fi Router Accessories",
+    price: 1499,
+    originalPrice: 2999,
+    discount: 50,
+    rating: 4.1,
+    reviewsCount: 1420,
+    image: "https://m.media-amazon.com/images/I/81kcE2D2ahL._SL1500_.jpg",
+    images: [
+      "https://m.media-amazon.com/images/I/81kcE2D2ahL._SL1500_.jpg"
+    ],
+    prime: true,
+    available: true,
+    shortDescription: "Power your Wi-Fi router uninterruptedly during load shedding and power cuts. Seamless automatic switching, moisture-resistant design.",
+    description: "Never lose internet connectivity during power outages! The Cuzor 12V Router UPS provides uninterrupted power to your Wi-Fi router, ensuring continuous video calls, online classes, or gaming sessions. Designed with professional-grade safety features, seamless millisecond switching, and moisture-resistant architecture, it keeps your home network active for up to 4 hours.",
+    features: [
+      "Up to 4 Hours Backup: Keeps your internet up and running during heavy power cuts.",
+      "Seamless Zero-Lag Switching: Bridges power outages instantly without rebooting your Wi-Fi router.",
+      "Moisture-Resistant Design: Robustly protected internal circuitry for all-weather durability.",
+      "Wide Compatibility: Designed specifically for 12V routers, modems, and smart home hubs.",
+      "Intelligent Charging: Built-in overcharge, deep discharge, and short-circuit protection."
+    ],
+    brand: "Cuzor",
+    specifications: {
+      "Brand": "Cuzor",
+      "Model": "Router UPS 12V",
+      "ASIN": "B07ZKD8T1Q",
+      "Backup Time": "Up to 4 Hours",
+      "Output Voltage": "12V DC"
+    },
+    amazonUrl: `https://www.amazon.in/Cuzor-Router-Switching-Moisture-Resistant/dp/B07ZKD8T1Q/ref=sr_1_3?tag=${affiliateId}`
+  }
 ];
+
+export const HERO_PRODUCT: Product = HERO_PRODUCTS[0];
 
 /**
  * ==========================================

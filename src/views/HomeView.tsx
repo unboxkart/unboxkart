@@ -186,11 +186,6 @@ export default function HomeView({
                   <div className="absolute top-4 left-4 bg-black/60 backdrop-blur-md border border-white/10 px-3 py-1 rounded-full text-[10px] font-bold tracking-widest uppercase">
                     {product.brand}
                   </div>
-                  
-                  {/* Discount Badge on Image overlay */}
-                  <div className="absolute top-4 right-4 bg-amber-500 text-slate-950 px-3 py-1 rounded-full text-[10px] font-black tracking-widest uppercase shadow-md">
-                    {product.discount}% OFF
-                  </div>
                 </div>
 
                 {/* 2. Massive standalone Amazon Buy Button directly below */}
@@ -214,11 +209,6 @@ export default function HomeView({
                   <span className="inline-flex items-center gap-1 rounded-full bg-amber-500/10 text-amber-400 px-2.5 py-0.5 text-[10px] font-black uppercase tracking-wider border border-amber-500/20">
                     ⚡ SPOTLIGHT DEAL OF THE DAY
                   </span>
-                  {product.prime && (
-                    <span className="inline-flex items-center gap-1 rounded-full bg-sky-500/10 text-sky-400 px-2 py-0.5 text-[9px] font-bold uppercase tracking-wider border border-sky-500/20">
-                      PRIME
-                    </span>
-                  )}
                 </div>
 
                 <h1 
@@ -229,20 +219,12 @@ export default function HomeView({
                 </h1>
 
                 {/* Short Description */}
-                <p className="text-sm text-slate-300 leading-relaxed max-w-xl">
+                <p className="hidden md:block text-sm text-slate-300 leading-relaxed max-w-xl">
                   {product.shortDescription || product.description?.substring(0, 160) + "..."}
                 </p>
 
                 {/* Extra specifications & price details */}
-                <div className="flex flex-wrap items-center gap-6 pt-4 border-t border-slate-800/60 max-w-xl">
-                  <div>
-                    <span className="block text-[10px] text-slate-400 uppercase tracking-wider">Spotlight Price</span>
-                    <div className="flex items-baseline gap-2">
-                      <span className="text-2xl font-black text-amber-400">₹{product.price.toLocaleString("en-IN")}</span>
-                      <span className="text-sm text-slate-500 line-through">₹{product.originalPrice.toLocaleString("en-IN")}</span>
-                    </div>
-                  </div>
-                  
+                <div className="hidden md:flex flex-wrap items-center gap-6 pt-4 border-t border-slate-800/60 max-w-xl">
                   {product.rating && (
                     <div>
                       <span className="block text-[10px] text-slate-400 uppercase tracking-wider">Customer Rating</span>
