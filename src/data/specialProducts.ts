@@ -49,6 +49,88 @@ export const HERO_PRODUCT: Product = {
   amazonUrl: `https://www.amazon.in/Misamo-Enterprise-OIL-DISPENSER-SPRAYER/dp/B0DH4WS3B4/ref=pd_rhf_ee_s_pd_crcd_d_sccl_2_3/257-3660837-2868308?tag=${affiliateId}`
 };
 
+export const HERO_PRODUCT_2: Product = {
+  id: "hero-samsung-s25-ultra",
+  name: "Samsung Galaxy S25 Ultra 5G AI Smartphone (Titanium Gray, 12GB RAM, 256GB Storage) | 200MP Camera | S Pen Included | Long Battery Life",
+  category: "electronics",
+  subCategory: "Premium Smartphones",
+  price: 109999,
+  originalPrice: 189653,
+  discount: 42,
+  rating: 4.8,
+  reviewsCount: 2348,
+  image: "https://m.media-amazon.com/images/I/71tl8pu4fKL._SL1500_.jpg",
+  images: [
+    "https://m.media-amazon.com/images/I/71tl8pu4fKL._SL1500_.jpg"
+  ],
+  prime: true,
+  available: true,
+  shortDescription: "Unleash the future of mobile technology with Galaxy AI. Features a revolutionary 200MP camera, built-in S Pen, and titanium strength.",
+  description: "The peak of smartphone engineering is here. The Samsung Galaxy S25 Ultra features Galaxy AI capabilities, a built-in stylus, an unmatched 200MP camera system, and ultra-durable Titanium body construction. Elevate your productivity and style.",
+  features: [
+    "Next-Gen Galaxy AI: Circle to Search, Live Translate, Note Assist, and Photo Assist on your device.",
+    "Built-In S Pen: Sketch, write, and control your device with high-precision stylus.",
+    "Pro-Grade 200MP Camera: Capture stunningly detailed photos day or night, and zoom with optical-quality clarity.",
+    "Ultra-Durable Titanium Frame: Crafted with premium titanium for maximum drop resistance and elegant look.",
+    "Snapdragon 8 Gen 4 for Galaxy: Exceptional speeds for gaming, multi-tasking, and AI workloads."
+  ],
+  brand: "Samsung",
+  specifications: {
+    "Brand": "Samsung",
+    "Model": "Galaxy S25 Ultra",
+    "RAM": "12GB",
+    "Storage": "256GB",
+    "Color": "Titanium Gray",
+    "Warranty": "1 Year Manufacturer Warranty"
+  },
+  isTodayDeal: true,
+  amazonUrl: `https://www.amazon.in/dp/B0DTD2H5D7?tag=${affiliateId}`
+};
+
+export const HERO_PRODUCT_3: Product = {
+  id: "hero-qubo-smart-cam",
+  name: "Qubo Smart Cam 360° 3MP Wi-Fi Smart Home Security Camera [2026 Edition] by Hero Group | STQC Certified Privacy | AI Person Detection & Motion Tracking | Color Night Vision | Two-Way Audio Talk",
+  category: "electronics",
+  subCategory: "Smart Home Security",
+  price: 2490,
+  originalPrice: 4290,
+  discount: 42,
+  rating: 4.5,
+  reviewsCount: 12450,
+  image: "https://m.media-amazon.com/images/I/7155rh9o61L._SL1500_.jpg",
+  images: [
+    "https://m.media-amazon.com/images/I/7155rh9o61L._SL1500_.jpg"
+  ],
+  prime: true,
+  available: true,
+  shortDescription: "Protect your home with a premium 360° smart security camera. Features 3MP Ultra HD video, STQC certified privacy, AI detection, and two-way talk.",
+  description: "Secure your home and stay connected with your loved ones using the Qubo Smart Cam 360° 3MP by Hero Group. Boasting a stellar 3MP Ultra HD sensor and a multi-directional motor, this security camera delivers a complete 360° panoramic view with crystal-clear day and night color vision. Engineered with advanced AI person detection and automatic motion tracking, it instantly detects intruders, rings a built-in alarm, and pushes immediate notifications to your smartphone.",
+  features: [
+    "3MP Ultra HD Resolution: Delivers exceptionally sharp 1296p video feed so you never miss a single detail.",
+    "Complete 360° Coverage: Remote pan-and-tilt controls cover the entire room, eliminating blind spots completely.",
+    "STQC Certified Security: Trusted military-grade privacy encryption protects your camera stream and personal video data.",
+    "AI Person Detection: Intelligently distinguishes humans from pets or blowing curtains to eliminate false alerts.",
+    "Enhanced Color Night Vision: Features a premium low-light sensor that captures bright, full-color video even in pitch dark."
+  ],
+  brand: "Qubo",
+  specifications: {
+    "Brand": "Qubo (by Hero Group)",
+    "Model": "Smart Cam 360 3MP (2026)",
+    "ASIN": "B0G64G64YL",
+    "Resolution": "3MP (1296p) Ultra HD",
+    "Connectivity": "Wi-Fi (2.4 GHz)",
+    "Special Feature": "AI Tracking, Color Night Vision, Two-Way Audio, STQC Certified"
+  },
+  isTodayDeal: true,
+  amazonUrl: `https://www.amazon.in/dp/B0G64G64YL?tag=${affiliateId}`
+};
+
+export const HERO_PRODUCTS: Product[] = [
+  HERO_PRODUCT,
+  HERO_PRODUCT_2,
+  HERO_PRODUCT_3
+];
+
 /**
  * ==========================================
  *            VIRAL / TRENDY FINDS

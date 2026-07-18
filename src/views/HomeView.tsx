@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { 
-  Sparkles, Flame, Clock, Award, CheckCircle2, ChevronRight, ArrowRight, ShieldCheck, 
+  Sparkles, Flame, Clock, Award, CheckCircle2, ChevronRight, ChevronLeft, ArrowRight, ShieldCheck, 
   HelpCircle, ThumbsUp, ShoppingBag, Cpu, Utensils, Shirt, Sparkles as BeautyIcon, Dumbbell, Gamepad2, BookOpen
 } from "lucide-react";
 import { PRODUCTS } from "../data/products";
-import { HERO_PRODUCT, VIRAL_PRODUCTS } from "../data/specialProducts";
+import { HERO_PRODUCTS, VIRAL_PRODUCTS } from "../data/specialProducts";
 import { BLOG_POSTS } from "../data/blog";
 import { SITE_CONFIG, CATEGORIES } from "../config";
 import { Product } from "../types";
@@ -32,6 +32,68 @@ export default function HomeView({
   
   // Set up a dynamic countdown timer for today's mega deals
   const [timeLeft, setTimeLeft] = useState({ hours: 14, minutes: 32, seconds: 45 });
+
+  // Set up state and ref for multiple hero products carousel
+  const [currentHeroIndex, setCurrentHeroIndex] = useState(0);
+  const scrollContainerRef = useRef<HTMLDivElement>(null);
+
+  // Sync index on scroll event
+  const handleScroll = () => {
+    const container = scrollContainerRef.current;
+    if (container) {
+      const scrollPosition = container.scrollLeft;
+      const cardWidth = container.clientWidth;
+      if (cardWidth > 0) {
+        const index = Math.round(scrollPosition / cardWidth);
+        if (index >= 0 && index < HERO_PRODUCTS.length && index !== currentHeroIndex) {
+          setCurrentHeroIndex(index);
+        }
+      }
+    }
+  };
+
+  const handlePrevSlide = () => {
+    const container = scrollContainerRef.current;
+    if (container) {
+      const prevIndex = (currentHeroIndex - 1 + HERO_PRODUCTS.length) % HERO_PRODUCTS.length;
+      container.scrollTo({
+        left: prevIndex * container.clientWidth,
+        behavior: "smooth"
+      });
+      setCurrentHeroIndex(prevIndex);
+    }
+  };
+
+  const handleNextSlide = () => {
+    const container = scrollContainerRef.current;
+    if (container) {
+      const nextIndex = (currentHeroIndex + 1) % HERO_PRODUCTS.length;
+      container.scrollTo({
+        left: nextIndex * container.clientWidth,
+        behavior: "smooth"
+      });
+      setCurrentHeroIndex(nextIndex);
+    }
+  };
+
+  const handleDotClick = (index: number) => {
+    const container = scrollContainerRef.current;
+    if (container) {
+      container.scrollTo({
+        left: index * container.clientWidth,
+        behavior: "smooth"
+      });
+      setCurrentHeroIndex(index);
+    }
+  };
+
+  // Autoplay hero slides
+  useEffect(() => {
+    const interval = setInterval(() => {
+      handleNextSlide();
+    }, 8000); // 8 seconds auto rotation
+    return () => clearInterval(interval);
+  }, [currentHeroIndex]);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -87,48 +149,147 @@ export default function HomeView({
     <div className="space-y-16 animate-in fade-in duration-300">
       
       {/* 1. Hero Promo Banner */}
-      <section className="relative overflow-hidden rounded-3xl bg-slate-900/75 dark:bg-slate-950/75 border border-slate-800/40 shadow-2xl backdrop-blur-md text-white">
+      <section className="relative overflow-hidden rounded-3xl bg-slate-900/75 dark:bg-slate-950/75 border border-slate-800/40 shadow-2xl backdrop-blur-md text-white group/hero">
         {/* Background ambient lighting */}
         <div className="absolute -left-16 -top-16 w-96 h-96 bg-amber-500/10 rounded-full blur-3xl pointer-events-none" />
         <div className="absolute -right-16 -bottom-16 w-96 h-96 bg-indigo-500/10 rounded-full blur-3xl pointer-events-none" />
 
-        <div className="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-8 md:gap-12 p-8 md:p-14 max-w-6xl mx-auto items-center">
-          
-          {/* Left Column: Image First and Amazon Buy Button Below */}
-          <div className="lg:col-span-5 flex flex-col items-center gap-6 w-full">
-            {/* 1. Beautifully Featured Product Frame */}
-            <div className="relative group w-full aspect-square max-w-[340px] rounded-3xl overflow-hidden border border-slate-850 bg-slate-950 p-6 flex items-center justify-center shadow-2xl hover:border-amber-500/30 transition-all duration-500">
-              {/* Product Background glow on hover */}
-              <div className="absolute inset-0 bg-amber-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" />
-              <img 
-                src={HERO_PRODUCT?.image} 
-                alt={HERO_PRODUCT?.name} 
-                className="max-h-full max-w-full object-contain rounded-2xl opacity-95 group-hover:scale-105 transition-transform duration-500"
-              />
+        {/* Scroll Container */}
+        <div 
+          ref={scrollContainerRef}
+          onScroll={handleScroll}
+          className="flex overflow-x-auto snap-x snap-mandatory scrollbar-none relative z-10"
+          style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
+        >
+          {HERO_PRODUCTS.map((product) => (
+            <div 
+              key={product.id}
+              className="w-full flex-shrink-0 snap-center grid grid-cols-1 lg:grid-cols-12 gap-8 md:gap-12 p-8 md:p-14 max-w-6xl mx-auto items-center"
+            >
+              {/* Left Column: Image First and Amazon Buy Button Below */}
+              <div className="lg:col-span-5 flex flex-col items-center gap-6 w-full">
+                {/* 1. Beautifully Featured Product Frame */}
+                <div 
+                  onClick={() => onProductClick(product)}
+                  className="relative group w-full aspect-square max-w-[340px] rounded-3xl overflow-hidden border border-slate-800/40 bg-slate-950 p-6 flex items-center justify-center shadow-2xl hover:border-amber-500/30 transition-all duration-500 cursor-pointer"
+                >
+                  {/* Product Background glow on hover */}
+                  <div className="absolute inset-0 bg-amber-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" />
+                  <img 
+                    src={product.image} 
+                    alt={product.name} 
+                    referrerPolicy="no-referrer"
+                    className="max-h-full max-w-full object-contain rounded-2xl opacity-95 group-hover:scale-105 transition-transform duration-500"
+                  />
+                  
+                  {/* Premium Brand Badge on Image overlay */}
+                  <div className="absolute top-4 left-4 bg-black/60 backdrop-blur-md border border-white/10 px-3 py-1 rounded-full text-[10px] font-bold tracking-widest uppercase">
+                    {product.brand}
+                  </div>
+                  
+                  {/* Discount Badge on Image overlay */}
+                  <div className="absolute top-4 right-4 bg-amber-500 text-slate-950 px-3 py-1 rounded-full text-[10px] font-black tracking-widest uppercase shadow-md">
+                    {product.discount}% OFF
+                  </div>
+                </div>
+
+                {/* 2. Massive standalone Amazon Buy Button directly below */}
+                <div className="w-full flex justify-center max-w-[340px]">
+                  <a
+                    href={product.amazonUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="group inline-flex items-center justify-center gap-3 w-full px-8 py-4 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-slate-950 font-black text-xs uppercase tracking-widest rounded-2xl transition-all duration-300 shadow-[0_12px_40px_rgb(245,158,11,0.25)] hover:shadow-[0_12px_50px_rgb(245,158,11,0.45)] transform hover:-translate-y-0.5 active:translate-y-0 border border-amber-400/20 cursor-pointer text-center"
+                  >
+                    <ShoppingBag className="w-5 h-5 stroke-[2.5]" />
+                    Buy Now on Amazon
+                    <ArrowRight className="w-5 h-5 stroke-[2.5] group-hover:translate-x-1 transition-transform" />
+                  </a>
+                </div>
+              </div>
+
+              {/* Right Column: Title & Dynamic Details Adjacent to the Image/Button */}
+              <div className="lg:col-span-7 flex flex-col text-left space-y-5 md:space-y-6">
+                <div className="flex items-center gap-2">
+                  <span className="inline-flex items-center gap-1 rounded-full bg-amber-500/10 text-amber-400 px-2.5 py-0.5 text-[10px] font-black uppercase tracking-wider border border-amber-500/20">
+                    ⚡ SPOTLIGHT DEAL OF THE DAY
+                  </span>
+                  {product.prime && (
+                    <span className="inline-flex items-center gap-1 rounded-full bg-sky-500/10 text-sky-400 px-2 py-0.5 text-[9px] font-bold uppercase tracking-wider border border-sky-500/20">
+                      PRIME
+                    </span>
+                  )}
+                </div>
+
+                <h1 
+                  onClick={() => onProductClick(product)}
+                  className="text-2xl md:text-3.5xl font-black tracking-tight leading-tight text-white hover:text-amber-400 transition-colors duration-300 cursor-pointer line-clamp-3"
+                >
+                  {product.name}
+                </h1>
+
+                {/* Short Description */}
+                <p className="text-sm text-slate-300 leading-relaxed max-w-xl">
+                  {product.shortDescription || product.description?.substring(0, 160) + "..."}
+                </p>
+
+                {/* Extra specifications & price details */}
+                <div className="flex flex-wrap items-center gap-6 pt-4 border-t border-slate-800/60 max-w-xl">
+                  <div>
+                    <span className="block text-[10px] text-slate-400 uppercase tracking-wider">Spotlight Price</span>
+                    <div className="flex items-baseline gap-2">
+                      <span className="text-2xl font-black text-amber-400">₹{product.price.toLocaleString("en-IN")}</span>
+                      <span className="text-sm text-slate-500 line-through">₹{product.originalPrice.toLocaleString("en-IN")}</span>
+                    </div>
+                  </div>
+                  
+                  {product.rating && (
+                    <div>
+                      <span className="block text-[10px] text-slate-400 uppercase tracking-wider">Customer Rating</span>
+                      <div className="flex items-center gap-1">
+                        <span className="text-sm font-black text-white">{product.rating}</span>
+                        <div className="flex text-amber-500">
+                          {"★".repeat(Math.round(product.rating))}
+                          {"☆".repeat(5 - Math.round(product.rating))}
+                        </div>
+                        <span className="text-xs text-slate-500">({product.reviewsCount})</span>
+                      </div>
+                    </div>
+                  )}
+                </div>
+              </div>
             </div>
+          ))}
+        </div>
 
-            {/* 2. Massive standalone Amazon Buy Button directly below */}
-            <div className="w-full flex justify-center max-w-[340px]">
-              <a
-                href={HERO_PRODUCT?.amazonUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group inline-flex items-center justify-center gap-3 w-full px-8 py-4 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-slate-950 font-black text-xs uppercase tracking-widest rounded-2xl transition-all duration-300 shadow-[0_12px_40px_rgb(245,158,11,0.25)] hover:shadow-[0_12px_50px_rgb(245,158,11,0.45)] transform hover:-translate-y-0.5 active:translate-y-0 border border-amber-400/20 cursor-pointer text-center"
-              >
-                <ShoppingBag className="w-5 h-5 stroke-[2.5]" />
-                Buy Now on Amazon
-                <ArrowRight className="w-5 h-5 stroke-[2.5] group-hover:translate-x-1 transition-transform" />
-              </a>
-            </div>
-          </div>
+        {/* Navigation Side Buttons */}
+        <button
+          onClick={handlePrevSlide}
+          className="absolute left-4 top-1/2 -translate-y-1/2 z-20 w-10 h-10 rounded-full bg-slate-900/60 hover:bg-amber-500 hover:text-slate-950 text-white flex items-center justify-center border border-white/10 hover:border-amber-400 transition-all duration-300 shadow-lg cursor-pointer md:opacity-0 md:group-hover/hero:opacity-100"
+          aria-label="Previous slide"
+        >
+          <ChevronLeft className="w-5 h-5 stroke-[2.5]" />
+        </button>
+        <button
+          onClick={handleNextSlide}
+          className="absolute right-4 top-1/2 -translate-y-1/2 z-20 w-10 h-10 rounded-full bg-slate-900/60 hover:bg-amber-500 hover:text-slate-950 text-white flex items-center justify-center border border-white/10 hover:border-amber-400 transition-all duration-300 shadow-lg cursor-pointer md:opacity-0 md:group-hover/hero:opacity-100"
+          aria-label="Next slide"
+        >
+          <ChevronRight className="w-5 h-5 stroke-[2.5]" />
+        </button>
 
-          {/* Right Column: Title Adjacent to the Image/Button */}
-          <div className="lg:col-span-7 flex flex-col text-left space-y-5 md:space-y-6">
-            <h1 className="text-2xl md:text-4xl font-black tracking-tight leading-tight text-white hover:text-amber-400 transition-colors duration-300">
-              {HERO_PRODUCT?.name}
-            </h1>
-          </div>
-
+        {/* Carousel Dots Indicators */}
+        <div className="absolute bottom-4 left-1/2 -translate-x-1/2 z-20 flex items-center gap-2 bg-slate-950/40 backdrop-blur-md px-3 py-1.5 rounded-full border border-white/5">
+          {HERO_PRODUCTS.map((_, index) => (
+            <button
+              key={index}
+              onClick={() => handleDotClick(index)}
+              className={`h-2 rounded-full transition-all duration-300 cursor-pointer ${
+                currentHeroIndex === index ? "w-6 bg-amber-500" : "w-2 bg-white/40 hover:bg-white/70"
+              }`}
+              aria-label={`Go to slide ${index + 1}`}
+            />
+          ))}
         </div>
       </section>
 
