@@ -11,9 +11,10 @@ export const SITE_CONFIG: SiteConfig = {
   socials: {
     facebook: "https://facebook.com/",
     twitter: "https://twitter.com/",
-    instagram: "https://instagram.com/",
+    instagram: "https://www.instagram.com/unboxkart.co",
     youtube: "https://youtube.com/",
     whatsapp: "https://wa.me/8686142645",
+    pinterest: "https://in.pinterest.com/unboxkart123/",
   },
   gaMeasurementId: "G-XXXXXXXXXX", // Google Analytics Measurement ID
 };

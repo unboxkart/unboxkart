@@ -60,6 +60,7 @@ export interface SiteConfig {
     instagram?: string;
     youtube?: string;
     whatsapp?: string;
+    pinterest?: string;
   };
   gaMeasurementId?: string;
 }

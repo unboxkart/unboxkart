@@ -168,6 +168,13 @@ export default function Footer({ setCurrentView, setSelectedCategory }: FooterPr
               <a href={SITE_CONFIG.socials.youtube} target="_blank" rel="noopener noreferrer" className="p-2 bg-slate-800 text-slate-300 hover:text-white hover:bg-amber-500 rounded-lg transition" aria-label="Youtube">
                 <Youtube className="w-4 h-4" />
               </a>
+              {SITE_CONFIG.socials.pinterest && (
+                <a href={SITE_CONFIG.socials.pinterest} target="_blank" rel="noopener noreferrer" className="p-2 bg-slate-800 text-slate-300 hover:text-white hover:bg-amber-500 rounded-lg transition" aria-label="Pinterest">
+                  <svg viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4" aria-hidden="true">
+                    <path d="M12 0C5.373 0 0 5.373 0 12c0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738.098.119.112.224.083.345-.091.378-.293 1.191-.332 1.355-.052.218-.173.264-.398.16-1.487-.692-2.417-2.863-2.417-4.6 0-3.748 2.724-7.192 7.853-7.192 4.123 0 7.329 2.938 7.329 6.867 0 4.097-2.583 7.394-6.17 7.394-1.205 0-2.337-.626-2.725-1.365l-.742 2.827c-.269 1.036-1.001 2.336-1.492 3.136C9.043 23.784 10.485 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0z"/>
+                  </svg>
+                </a>
+              )}
             </div>
           </div>
         </div>
