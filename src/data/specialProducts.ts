@@ -12,6 +12,42 @@ const affiliateId = SITE_CONFIG.amazonAssociateId;
  */
 export const HERO_PRODUCTS: Product[] = [
   {
+    id: "hero-impower-pepper-spray",
+    name: "IMPOWER Self Defence Pepper Spray Green Chilli for Woman Safety - 55 ML (Pack of 1) | Pocket Size Long Range of 12ft | Pepper Spray, Very Strong, Protection & Safety",
+    category: "home",
+    subCategory: "Personal Safety & Security",
+    price: 193,
+    originalPrice: 399,
+    discount: 51,
+    rating: 4.5,
+    reviewsCount: 1420,
+    image: "https://m.media-amazon.com/images/I/41exSmSzzxL.jpg",
+    images: [
+      "https://m.media-amazon.com/images/I/41exSmSzzxL.jpg"
+    ],
+    prime: true,
+    available: true,
+    shortDescription: "Empower yourself with high-potency self-defense pepper spray. Features a compact design with up to 12ft range, easy-press nozzle, and severe temporary incapacitating effects.",
+    description: "Empower yourself with high-potency self-defense pepper spray. The IMPOWER Self Defence Pepper Spray delivers a powerful, concentrated stream of active irritant up to 12 feet away. Designed for quick, one-handed pocket-sized operation, it causes severe coughing, temporary blindness, and irritation to ensure your safety in critical situations.",
+    features: [
+      "Self Defense Pepper Spray: Strictly formulated for legal self defense. Keep out of reach of children and do not expose directly to high heat.",
+      "Optimal Content: Features a 55 ml canister containing 35 grams of highly concentrated dispensable pepper formulation.",
+      "Pocket Size Accessibility: Extremely compact, lightweight bottle fits easily in pockets, wallets, purses, or car compartments.",
+      "Long-Range Accuracy: Built-in easy-press spray nozzle always points towards the target's face with a potent range of up to 12 feet.",
+      "Severe Irritant Effects: Premium Green Chilli formulation causes immediate temporary blindness, intense tearing, coughing, and runny nose with a single spray."
+    ],
+    brand: "IMPOWER",
+    specifications: {
+      "Brand": "IMPOWER",
+      "Model": "Self Defence Pepper Spray - Green Chilli",
+      "Volume": "55 ML / 35g",
+      "Range": "Up to 12 Feet",
+      "ASIN": "B075KC6SLD"
+    },
+    isTodayDeal: true,
+    amazonUrl: `https://www.amazon.in/gp/product/B075KC6SLD?tag=${affiliateId}`
+  },
+  {
     id: "hero-soap-dispensing-brush",
     name: "Soap Dispensing Palm Brush, Kitchen Cleaning Scrubber with Liquid Dispenser, Dish Washing Brush with Refillable Handle for Utensils, Sink & Household Cleaning",
     category: "home",
