@@ -12,40 +12,41 @@ const affiliateId = SITE_CONFIG.amazonAssociateId;
  */
 export const HERO_PRODUCTS: Product[] = [
   {
-    id: "hero-impower-pepper-spray",
-    name: "IMPOWER Self Defence Pepper Spray Green Chilli for Woman Safety - 55 ML (Pack of 1) | Pocket Size Long Range of 12ft | Pepper Spray, Very Strong, Protection & Safety",
+    id: "hero-silicone-stretch-lids",
+    name: "Reusable Silicone Stretch Lids Cover (Pack of 6) | Stretchable, Durable Food-Grade Silicone Covers for Bowls, Cups, Cans, Pots, and Food Storage | Dishwasher, Microwave & Freezer Safe",
     category: "home",
-    subCategory: "Personal Safety & Security",
-    price: 193,
+    subCategory: "Kitchen Accessories",
+    price: 138,
     originalPrice: 399,
-    discount: 51,
-    rating: 4.5,
-    reviewsCount: 1420,
-    image: "https://m.media-amazon.com/images/I/41exSmSzzxL.jpg",
+    discount: 65,
+    rating: 4.3,
+    reviewsCount: 2845,
+    image: "https://m.media-amazon.com/images/I/51BrFR5qyvL.jpg",
     images: [
-      "https://m.media-amazon.com/images/I/41exSmSzzxL.jpg"
+      "https://m.media-amazon.com/images/I/51BrFR5qyvL.jpg"
     ],
     prime: true,
     available: true,
-    shortDescription: "Empower yourself with high-potency self-defense pepper spray. Features a compact design with up to 12ft range, easy-press nozzle, and severe temporary incapacitating effects.",
-    description: "Empower yourself with high-potency self-defense pepper spray. The IMPOWER Self Defence Pepper Spray delivers a powerful, concentrated stream of active irritant up to 12 feet away. Designed for quick, one-handed pocket-sized operation, it causes severe coughing, temporary blindness, and irritation to ensure your safety in critical situations.",
+    shortDescription: "Say goodbye to plastic wrap! These eco-friendly, reusable silicone stretch lids fit various sizes of bowls, cups, and pots, keeping food fresh with an airtight, leak-proof seal.",
+    description: "Upgrade your kitchen storage with these highly stretchable and reusable silicone lids. Crafted from 100% premium, BPA-free food-grade silicone, these stretch lids are designed to stretch over containers of different shapes and sizes (round, square, or rectangular). Perfect for storing leftovers, sealing cut fruits, keeping beverages fresh, and preventing messy spills. They are heat-resistant, dishwasher-safe, microwave-safe, and freezer-safe, making them the ultimate eco-friendly kitchen companion.",
     features: [
-      "Self Defense Pepper Spray: Strictly formulated for legal self defense. Keep out of reach of children and do not expose directly to high heat.",
-      "Optimal Content: Features a 55 ml canister containing 35 grams of highly concentrated dispensable pepper formulation.",
-      "Pocket Size Accessibility: Extremely compact, lightweight bottle fits easily in pockets, wallets, purses, or car compartments.",
-      "Long-Range Accuracy: Built-in easy-press spray nozzle always points towards the target's face with a potent range of up to 12 feet.",
-      "Severe Irritant Effects: Premium Green Chilli formulation causes immediate temporary blindness, intense tearing, coughing, and runny nose with a single spray."
+      "100% Food-Grade Silicone: Made from premium, BPA-free, non-toxic, and eco-friendly silicone. Safe for direct contact with food.",
+      "Superior Stretch & Versatile Sizes: Pack of 6 different diameter lids that stretch to fit various round, square, or rectangular bowls, pots, cups, jars, and even cut melons.",
+      "Airtight & Leak-Proof Seal: Creates a perfect vacuum seal on glass, plastic, or metal containers to lock in freshness and prevent spills—even when turned upside down.",
+      "Extreme Temperature Resistance: Safely use in the microwave, freezer, and oven (withstands temperatures from -40°C to 230°C).",
+      "Easy to Clean & Eco-Friendly: Simply toss in the dishwasher or rinse with warm soapy water. Reusable design completely replaces single-use plastic wrap and foil."
     ],
-    brand: "IMPOWER",
+    brand: "Basic Haus",
     specifications: {
-      "Brand": "IMPOWER",
-      "Model": "Self Defence Pepper Spray - Green Chilli",
-      "Volume": "55 ML / 35g",
-      "Range": "Up to 12 Feet",
-      "ASIN": "B075KC6SLD"
+      "Brand": "Basic Haus",
+      "Model": "Silicone Stretch Lids Cover Set",
+      "Material": "100% Food-Grade BPA-Free Silicone",
+      "Count": "6 Lids of Various Sizes",
+      "Special Features": "Leak-proof, Stretchable, Microwave/Oven/Freezer Safe, Dishwasher Friendly",
+      "ASIN": "B0CHZ69ZFN"
     },
     isTodayDeal: true,
-    amazonUrl: `https://www.amazon.in/gp/product/B075KC6SLD?tag=${affiliateId}`
+    amazonUrl: `https://www.amazon.in/gp/product/B0CHZ69ZFN?smid=A379A61TLL3VGH&tag=${affiliateId}`
   },
   {
     id: "hero-soap-dispensing-brush",
