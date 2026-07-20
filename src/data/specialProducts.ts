@@ -12,6 +12,43 @@ const affiliateId = SITE_CONFIG.amazonAssociateId;
  */
 export const HERO_PRODUCTS: Product[] = [
   {
+    id: "hero-tekcool-sealing-machine",
+    name: "TEKCOOL Portable Mini Sealing Machine, Handheld Packet Sealer for Food, Snacks, Chips, Fresh Storage, Plastic Bags Sealing Machine, 1 YEAR Warranty (White)",
+    category: "home",
+    subCategory: "Kitchen Accessories",
+    price: 239,
+    originalPrice: 599,
+    discount: 60,
+    rating: 4.2,
+    reviewsCount: 1250,
+    image: "https://m.media-amazon.com/images/I/41RTAUy1ZvL.jpg",
+    images: [
+      "https://m.media-amazon.com/images/I/41RTAUy1ZvL.jpg"
+    ],
+    prime: true,
+    available: true,
+    shortDescription: "Keep your food, snacks, and chips fresh with this portable 2-in-1 rechargeable mini heat sealer and packet cutter.",
+    description: "Say goodbye to stale snacks and open plastic packaging. The TEKCOOL Portable Mini Sealing Machine is a rechargeable 2-in-1 handheld device featuring both a powerful heat sealer and a built-in sharp blade cutter. Perfect for resealing potato chips, cookies, vacuum bags, candy, and salad bags. Compact, lightweight, and equipped with a magnetic backing, it easily attaches to your refrigerator so it is always within reach.",
+    features: [
+      "2-in-1 Sealer & Cutter: Multi-functional design features a high-temperature sealing element on one end and a stainless steel packet cutter on the other.",
+      "Built-in Rechargeable Battery: Powered by an eco-friendly 400 mAh rechargeable battery. Lasts 10 to 15 days on a single charge. Type-C cable included.",
+      "Instant Seal (No Preheating): Heats up in just 1 second and reseals various bag types (mylar, PVC, PP, PE) airtight in just 5 seconds.",
+      "Magnetic & Compact Design: Features a magnetic strip on the back to conveniently store on your refrigerator. Extremely portable at only 0.2 lbs.",
+      "Keeps Food Fresh & Crispy: Vacuum-tight sealing locks out air and moisture, keeping chips, dry fruits, and cookies fresh and crispy for days."
+    ],
+    brand: "TEKCOOL",
+    specifications: {
+      "Brand": "TEKCOOL",
+      "Model": "Portable Mini Sealer & Cutter",
+      "Battery Capacity": "400 mAh (Rechargeable USB-C)",
+      "Material": "Premium Heat-Resistant ABS & Stainless Steel",
+      "Charging Time": "Approx. 2.5 Hours",
+      "ASIN": "B0GFFBJZ2H"
+    },
+    isTodayDeal: true,
+    amazonUrl: `https://www.amazon.in/gp/product/B0GFFBJZ2H?smid=A2AL6IVND0I91F&tag=${affiliateId}`
+  },
+  {
     id: "hero-silicone-stretch-lids",
     name: "Reusable Silicone Stretch Lids Cover (Pack of 6) | Stretchable, Durable Food-Grade Silicone Covers for Bowls, Cups, Cans, Pots, and Food Storage | Dishwasher, Microwave & Freezer Safe",
     category: "home",
